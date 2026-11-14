@@ -1,0 +1,12 @@
+data/
+cache/
+.deps/
+tmp/
+runs/
+.venv/
+__pycache__/
+*.pyc
+*.log
+*.zip
+.env
+artifacts/models/

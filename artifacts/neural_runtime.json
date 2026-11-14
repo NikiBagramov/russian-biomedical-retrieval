@@ -1,0 +1,70 @@
+{
+  "e5_small": {
+    "corpus": {
+      "seconds": 75.78211299999748,
+      "truncated": 1355,
+      "rows": 3633,
+      "max_tokens": 512
+    },
+    "queries": {
+      "seconds": 2.188967899997806,
+      "truncated": 0,
+      "rows": 647,
+      "max_tokens": 512
+    }
+  },
+  "e5_large": {
+    "corpus": {
+      "seconds": 588.1266895999979,
+      "truncated": 1355,
+      "rows": 3633,
+      "max_tokens": 512
+    },
+    "queries": {
+      "seconds": 5.709866999997757,
+      "truncated": 0,
+      "rows": 647,
+      "max_tokens": 512
+    }
+  },
+  "qwen_embedding": {
+    "corpus": {
+      "seconds": 462.3275336000006,
+      "truncated": 2583,
+      "rows": 3633,
+      "max_tokens": 512
+    },
+    "queries": {
+      "seconds": 7.041855699997541,
+      "truncated": 0,
+      "rows": 647,
+      "max_tokens": 512
+    }
+  },
+  "bge_reranker512": {
+    "seconds": 1238.1230467999994,
+    "new_pairs": 26843,
+    "cached_pairs": 26843,
+    "truncated_new_pairs": null,
+    "max_length": 512,
+    "batch_size": 8,
+    "truncated_all_pairs": 10915,
+    "length_audit_note": "Original inference did not count BGE truncations; post-hoc label-blind context_audit counts all cached pairs."
+  },
+  "qwen_reranker512": {
+    "seconds": 1661.6373351000002,
+    "new_pairs": 12940,
+    "cached_pairs": 12940,
+    "truncated_new_pairs": 10930,
+    "max_length": 512,
+    "batch_size": 8
+  },
+  "qwen_reranker2048": {
+    "seconds": 2710.2585284000015,
+    "new_pairs": 12940,
+    "cached_pairs": 12940,
+    "truncated_new_pairs": 23,
+    "max_length": 2048,
+    "batch_size": 2
+  }
+}

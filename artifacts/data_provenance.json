@@ -1,0 +1,58 @@
+[
+  {
+    "project": "russian-biomedical-retrieval",
+    "repo": "kaengreg/rus-nfcorpus",
+    "revision": "66f87c5cb6e134ab138e9421290d077a85f17846",
+    "file": "README.md",
+    "sha256": "9c0a8ed1cd8f7cf40c26f5cfce0bae63fef01aeec11166e5348f2937bda5dfeb",
+    "bytes": 170
+  },
+  {
+    "project": "russian-biomedical-retrieval",
+    "repo": "kaengreg/rus-nfcorpus",
+    "revision": "66f87c5cb6e134ab138e9421290d077a85f17846",
+    "file": "corpus.jsonl",
+    "sha256": "eef9c6a4d52a8dca0d0ea48b221579d1e20d3b90eba3601b712e676dba85fc64",
+    "bytes": 22357468
+  },
+  {
+    "project": "russian-biomedical-retrieval",
+    "repo": "kaengreg/rus-nfcorpus",
+    "revision": "66f87c5cb6e134ab138e9421290d077a85f17846",
+    "file": "queries.jsonl",
+    "sha256": "06ee7cfc1f2503cd97e50cd3c84c62a0e16eaa976dde479b75c6b3e29dd86b2d",
+    "bytes": 750383
+  },
+  {
+    "project": "russian-biomedical-retrieval",
+    "repo": "kaengreg/rus-nfcorpus-qrels",
+    "revision": "2dc2e7fe5e08187db84eeb1da7c3a19d70508337",
+    "file": "README.md",
+    "sha256": "3d137262fca5bf50a69b908ce735245a2f1c769fba903f70bd0b77cd0464dff8",
+    "bytes": 214
+  },
+  {
+    "project": "russian-biomedical-retrieval",
+    "repo": "kaengreg/rus-nfcorpus-qrels",
+    "revision": "2dc2e7fe5e08187db84eeb1da7c3a19d70508337",
+    "file": "dev.tsv",
+    "sha256": "b1d38b5e8f78c4a5820bce2b7ec2db54911d7690dc601e76811846b211180bd8",
+    "bytes": 258218
+  },
+  {
+    "project": "russian-biomedical-retrieval",
+    "repo": "kaengreg/rus-nfcorpus-qrels",
+    "revision": "2dc2e7fe5e08187db84eeb1da7c3a19d70508337",
+    "file": "test.tsv",
+    "sha256": "f8fba6ef3d4dd9c3a242a8ba4ae38276fc3622fce7dcbae764766d564542fd2a",
+    "bytes": 279572
+  },
+  {
+    "project": "russian-biomedical-retrieval",
+    "repo": "kaengreg/rus-nfcorpus-qrels",
+    "revision": "2dc2e7fe5e08187db84eeb1da7c3a19d70508337",
+    "file": "train.tsv",
+    "sha256": "6336b80f9bffc4f063f3aa450047ad35c0b7c534efe4a6ba35e16dbace047f6a",
+    "bytes": 2504643
+  }
+]

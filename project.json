@@ -1,0 +1,26 @@
+{
+  "slug": "russian-biomedical-retrieval",
+  "topic": "Поиск русскоязычных биомедицинских публикаций по короткому запросу",
+  "benchmarks": [
+    "RusBEIR rus-NFCorpus"
+  ],
+  "primary": "Official nDCG@10, plus MAP@10, Recall@10/100 and MRR",
+  "reference": "RusBEIR BM25, multilingual E5, BM25+BGE reranker",
+  "authors": [
+    "Nikita Bagramov",
+    "Alfiya Iskhakova"
+  ],
+  "authors_ru": [
+    "Никита Баграмов",
+    "Альфия Исхакова"
+  ],
+  "course": "Natural Language Processing & LLMs, autumn 2026",
+  "repository_url": "https://github.com/NikiBagramov/russian-biomedical-retrieval",
+  "seeds": [
+    7,
+    8,
+    9,
+    10,
+    11
+  ]
+}

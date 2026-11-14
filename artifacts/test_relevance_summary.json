@@ -1,0 +1,4119 @@
+{
+  "PLAIN-2": {
+    "relevant_documents": 24,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-12": {
+    "relevant_documents": 30,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-23": {
+    "relevant_documents": 90,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-33": {
+    "relevant_documents": 32,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ]
+  },
+  "PLAIN-44": {
+    "relevant_documents": 58,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-56": {
+    "relevant_documents": 50,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-68": {
+    "relevant_documents": 55,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-78": {
+    "relevant_documents": 62,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-91": {
+    "relevant_documents": 64,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "PLAIN-102": {
+    "relevant_documents": 24,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-112": {
+    "relevant_documents": 56,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-123": {
+    "relevant_documents": 51,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-133": {
+    "relevant_documents": 36,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-143": {
+    "relevant_documents": 51,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-153": {
+    "relevant_documents": 47,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-165": {
+    "relevant_documents": 36,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-175": {
+    "relevant_documents": 37,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-186": {
+    "relevant_documents": 24,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-196": {
+    "relevant_documents": 69,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-207": {
+    "relevant_documents": 55,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-217": {
+    "relevant_documents": 36,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-227": {
+    "relevant_documents": 40,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-238": {
+    "relevant_documents": 54,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-248": {
+    "relevant_documents": 31,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-259": {
+    "relevant_documents": 14,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-270": {
+    "relevant_documents": 52,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-280": {
+    "relevant_documents": 20,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-291": {
+    "relevant_documents": 13,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-307": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-320": {
+    "relevant_documents": 42,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-332": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      2,
+      2
+    ]
+  },
+  "PLAIN-344": {
+    "relevant_documents": 61,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-358": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-371": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      2,
+      1
+    ]
+  },
+  "PLAIN-383": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-395": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      2,
+      2,
+      1
+    ]
+  },
+  "PLAIN-407": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      2,
+      1,
+      1
+    ]
+  },
+  "PLAIN-418": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      2,
+      2,
+      1
+    ]
+  },
+  "PLAIN-430": {
+    "relevant_documents": 8,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-441": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-457": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-468": {
+    "relevant_documents": 10,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-478": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-488": {
+    "relevant_documents": 15,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-499": {
+    "relevant_documents": 34,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-510": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-520": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-531": {
+    "relevant_documents": 308,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-541": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-551": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-561": {
+    "relevant_documents": 25,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-571": {
+    "relevant_documents": 7,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-583": {
+    "relevant_documents": 44,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-593": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-603": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-613": {
+    "relevant_documents": 10,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-623": {
+    "relevant_documents": 41,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-634": {
+    "relevant_documents": 21,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-645": {
+    "relevant_documents": 29,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-660": {
+    "relevant_documents": 475,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-671": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-681": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-691": {
+    "relevant_documents": 21,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-701": {
+    "relevant_documents": 8,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-711": {
+    "relevant_documents": 57,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-721": {
+    "relevant_documents": 25,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-731": {
+    "relevant_documents": 54,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-741": {
+    "relevant_documents": 19,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-751": {
+    "relevant_documents": 7,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-761": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-771": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-782": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-792": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-806": {
+    "relevant_documents": 96,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-817": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-827": {
+    "relevant_documents": 244,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-838": {
+    "relevant_documents": 9,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-850": {
+    "relevant_documents": 57,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-872": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-882": {
+    "relevant_documents": 15,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-892": {
+    "relevant_documents": 92,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-902": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-913": {
+    "relevant_documents": 34,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-924": {
+    "relevant_documents": 32,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-934": {
+    "relevant_documents": 101,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-946": {
+    "relevant_documents": 31,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-956": {
+    "relevant_documents": 206,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-966": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-977": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-987": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-997": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-1008": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1018": {
+    "relevant_documents": 60,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1028": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-1039": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-1050": {
+    "relevant_documents": 94,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1066": {
+    "relevant_documents": 9,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1088": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1098": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1109": {
+    "relevant_documents": 98,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1119": {
+    "relevant_documents": 11,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1130": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-1141": {
+    "relevant_documents": 16,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1151": {
+    "relevant_documents": 153,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1161": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-1172": {
+    "relevant_documents": 19,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1183": {
+    "relevant_documents": 25,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1193": {
+    "relevant_documents": 18,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1203": {
+    "relevant_documents": 12,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1214": {
+    "relevant_documents": 17,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1225": {
+    "relevant_documents": 27,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1236": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1249": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1262": {
+    "relevant_documents": 10,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1275": {
+    "relevant_documents": 55,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1288": {
+    "relevant_documents": 196,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1299": {
+    "relevant_documents": 61,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1309": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1320": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1331": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-1342": {
+    "relevant_documents": 16,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1353": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1363": {
+    "relevant_documents": 11,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1374": {
+    "relevant_documents": 26,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1387": {
+    "relevant_documents": 12,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1398": {
+    "relevant_documents": 103,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1409": {
+    "relevant_documents": 253,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1419": {
+    "relevant_documents": 65,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1429": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1441": {
+    "relevant_documents": 186,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1453": {
+    "relevant_documents": 245,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1463": {
+    "relevant_documents": 24,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1473": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-1485": {
+    "relevant_documents": 54,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1496": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-1506": {
+    "relevant_documents": 15,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1516": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-1527": {
+    "relevant_documents": 202,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1537": {
+    "relevant_documents": 45,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1547": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1557": {
+    "relevant_documents": 26,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1568": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-1579": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1590": {
+    "relevant_documents": 18,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1601": {
+    "relevant_documents": 74,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1611": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1621": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1635": {
+    "relevant_documents": 431,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1645": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1656": {
+    "relevant_documents": 28,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1667": {
+    "relevant_documents": 159,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1679": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-1690": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1700": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1710": {
+    "relevant_documents": 16,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1721": {
+    "relevant_documents": 31,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1731": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1741": {
+    "relevant_documents": 420,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1752": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-1762": {
+    "relevant_documents": 8,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1772": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-1784": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-1794": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-1805": {
+    "relevant_documents": 116,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1817": {
+    "relevant_documents": 27,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1827": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1837": {
+    "relevant_documents": 196,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1847": {
+    "relevant_documents": 11,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1857": {
+    "relevant_documents": 33,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1867": {
+    "relevant_documents": 7,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1877": {
+    "relevant_documents": 36,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1887": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1897": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-1909": {
+    "relevant_documents": 463,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1919": {
+    "relevant_documents": 27,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1929": {
+    "relevant_documents": 10,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1940": {
+    "relevant_documents": 12,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1950": {
+    "relevant_documents": 13,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1962": {
+    "relevant_documents": 13,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1972": {
+    "relevant_documents": 11,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1983": {
+    "relevant_documents": 32,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-1995": {
+    "relevant_documents": 11,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2009": {
+    "relevant_documents": 8,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2019": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2030": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2040": {
+    "relevant_documents": 132,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2051": {
+    "relevant_documents": 355,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2061": {
+    "relevant_documents": 410,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2071": {
+    "relevant_documents": 45,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2081": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-2092": {
+    "relevant_documents": 10,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2102": {
+    "relevant_documents": 421,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2113": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-2124": {
+    "relevant_documents": 17,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2134": {
+    "relevant_documents": 12,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2145": {
+    "relevant_documents": 9,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2156": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2167": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-2177": {
+    "relevant_documents": 24,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2187": {
+    "relevant_documents": 9,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2197": {
+    "relevant_documents": 58,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2209": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-2220": {
+    "relevant_documents": 9,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2230": {
+    "relevant_documents": 7,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2240": {
+    "relevant_documents": 11,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2250": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-2261": {
+    "relevant_documents": 60,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2271": {
+    "relevant_documents": 10,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2281": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      1
+    ]
+  },
+  "PLAIN-2291": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2301": {
+    "relevant_documents": 13,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2311": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-2321": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2332": {
+    "relevant_documents": 97,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2343": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-2354": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2364": {
+    "relevant_documents": 15,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2375": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      1,
+      1
+    ]
+  },
+  "PLAIN-2386": {
+    "relevant_documents": 19,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2396": {
+    "relevant_documents": 18,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2408": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2430": {
+    "relevant_documents": 46,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2440": {
+    "relevant_documents": 21,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2450": {
+    "relevant_documents": 38,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2460": {
+    "relevant_documents": 31,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2470": {
+    "relevant_documents": 73,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2480": {
+    "relevant_documents": 18,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ]
+  },
+  "PLAIN-2490": {
+    "relevant_documents": 23,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2500": {
+    "relevant_documents": 7,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2510": {
+    "relevant_documents": 46,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2520": {
+    "relevant_documents": 73,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2530": {
+    "relevant_documents": 72,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2540": {
+    "relevant_documents": 21,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ]
+  },
+  "PLAIN-2550": {
+    "relevant_documents": 25,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2560": {
+    "relevant_documents": 21,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2570": {
+    "relevant_documents": 40,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2580": {
+    "relevant_documents": 23,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2590": {
+    "relevant_documents": 63,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ]
+  },
+  "PLAIN-2600": {
+    "relevant_documents": 10,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2610": {
+    "relevant_documents": 61,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2620": {
+    "relevant_documents": 55,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2630": {
+    "relevant_documents": 48,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2640": {
+    "relevant_documents": 48,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ]
+  },
+  "PLAIN-2650": {
+    "relevant_documents": 29,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2660": {
+    "relevant_documents": 27,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2670": {
+    "relevant_documents": 35,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2680": {
+    "relevant_documents": 14,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2690": {
+    "relevant_documents": 43,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2700": {
+    "relevant_documents": 10,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2710": {
+    "relevant_documents": 21,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2720": {
+    "relevant_documents": 36,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2730": {
+    "relevant_documents": 29,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2740": {
+    "relevant_documents": 50,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2750": {
+    "relevant_documents": 59,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2760": {
+    "relevant_documents": 8,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2770": {
+    "relevant_documents": 41,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ]
+  },
+  "PLAIN-2780": {
+    "relevant_documents": 22,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2790": {
+    "relevant_documents": 59,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-2800": {
+    "relevant_documents": 24,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2810": {
+    "relevant_documents": 8,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2820": {
+    "relevant_documents": 8,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2830": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      2,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2840": {
+    "relevant_documents": 17,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2850": {
+    "relevant_documents": 9,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2860": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      2,
+      2
+    ]
+  },
+  "PLAIN-2870": {
+    "relevant_documents": 5,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2880": {
+    "relevant_documents": 17,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2890": {
+    "relevant_documents": 29,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2900": {
+    "relevant_documents": 12,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2910": {
+    "relevant_documents": 15,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2920": {
+    "relevant_documents": 7,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2930": {
+    "relevant_documents": 14,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2940": {
+    "relevant_documents": 22,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2950": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      2,
+      1
+    ]
+  },
+  "PLAIN-2960": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      2,
+      1
+    ]
+  },
+  "PLAIN-2970": {
+    "relevant_documents": 9,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2981": {
+    "relevant_documents": 7,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-2991": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      2,
+      2
+    ]
+  },
+  "PLAIN-3001": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      2,
+      2
+    ]
+  },
+  "PLAIN-3014": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      2
+    ]
+  },
+  "PLAIN-3026": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      2
+    ]
+  },
+  "PLAIN-3037": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-3053": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-3063": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3074": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      2
+    ]
+  },
+  "PLAIN-3085": {
+    "relevant_documents": 2,
+    "ideal_grades": [
+      2,
+      2
+    ]
+  },
+  "PLAIN-3097": {
+    "relevant_documents": 4,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3116": {
+    "relevant_documents": 1,
+    "ideal_grades": [
+      2
+    ]
+  },
+  "PLAIN-3131": {
+    "relevant_documents": 6,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3141": {
+    "relevant_documents": 34,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3151": {
+    "relevant_documents": 18,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3161": {
+    "relevant_documents": 43,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3171": {
+    "relevant_documents": 34,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3181": {
+    "relevant_documents": 27,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3191": {
+    "relevant_documents": 16,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3201": {
+    "relevant_documents": 32,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3211": {
+    "relevant_documents": 18,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3221": {
+    "relevant_documents": 24,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3231": {
+    "relevant_documents": 8,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3241": {
+    "relevant_documents": 29,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3251": {
+    "relevant_documents": 21,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3261": {
+    "relevant_documents": 13,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3271": {
+    "relevant_documents": 49,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3281": {
+    "relevant_documents": 26,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3292": {
+    "relevant_documents": 7,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3302": {
+    "relevant_documents": 37,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3312": {
+    "relevant_documents": 13,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3322": {
+    "relevant_documents": 79,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3332": {
+    "relevant_documents": 14,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3342": {
+    "relevant_documents": 3,
+    "ideal_grades": [
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-3352": {
+    "relevant_documents": 39,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3362": {
+    "relevant_documents": 11,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3372": {
+    "relevant_documents": 14,
+    "ideal_grades": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3382": {
+    "relevant_documents": 14,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3392": {
+    "relevant_documents": 23,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3402": {
+    "relevant_documents": 14,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3412": {
+    "relevant_documents": 49,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3422": {
+    "relevant_documents": 31,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3432": {
+    "relevant_documents": 42,
+    "ideal_grades": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3442": {
+    "relevant_documents": 29,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3452": {
+    "relevant_documents": 17,
+    "ideal_grades": [
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "PLAIN-3462": {
+    "relevant_documents": 64,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "PLAIN-3472": {
+    "relevant_documents": 17,
+    "ideal_grades": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  }
+}

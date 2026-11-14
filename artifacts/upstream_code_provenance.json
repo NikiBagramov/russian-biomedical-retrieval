@@ -1,0 +1,13 @@
+{
+  "repo": "kaengreg/rusBEIR",
+  "commit": "cc7f925c0ed798df4d409137074b3fec5009a5aa",
+  "files": {
+    "beir/retrieval/evaluation.py": "83c6dff4dd8029bc55bb1b556632234498c88139ff5b5cd1b74b2e2cccfff5fb",
+    "beir/retrieval/custom_metrics.py": "892753c145a421927afe388d2c3477fd126e396ac7be37ab47b7e58796a12f42",
+    "beir/retrieval/search/base.py": "598110fe7ea9eb0022c8ccf30c923a8f9fce2fa08cd83dfa52fc9960d7657edd",
+    "retrieval/models/sparse/bm25s.py": "89d2007109b19841e5cf1df1799fbcaf5eff878177fc48e1e3576254a9a37b19",
+    "retrieval/models/dense/E5Model.py": "f909665b3197a7bbef2dac7f39cbe12ea44f69a76f0694858cc6febfe148b0c2",
+    "reranking/BGE_reranker.py": "e5b03509a911eccd4279d47ddc0a02390cbf92eb47d7fc9e3416e9e593979b47"
+  },
+  "note": "Source inspected; no license found. Only hashes redistributed. Licensed BEIR original evaluator is vendored separately."
+}

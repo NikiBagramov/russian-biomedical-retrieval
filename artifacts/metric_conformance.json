@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "ndcg": 0.7224242270408039,
+  "fixture": "Graded linear-gain TREC DCG",
+  "engine": "pytrec_eval (pytrec-eval-terrier 0.5.11)",
+  "upstream_function_agreement": true,
+  "upstream_sha256": "83c6dff4dd8029bc55bb1b556632234498c88139ff5b5cd1b74b2e2cccfff5fb"
+}

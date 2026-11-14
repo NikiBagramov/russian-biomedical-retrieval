@@ -1,0 +1,34 @@
+{
+  "corpus": 3633,
+  "queries": 3237,
+  "splits": {
+    "train": {
+      "queries": 2590,
+      "qrels": 110575,
+      "grades": {
+        "1": 110575
+      },
+      "duplicate_train_text": null
+    },
+    "dev": {
+      "queries": 324,
+      "qrels": 11385,
+      "grades": {
+        "2": 521,
+        "1": 10864
+      },
+      "duplicate_train_text": 8
+    },
+    "test": {
+      "queries": 323,
+      "qrels": 12334,
+      "grades": {
+        "2": 576,
+        "1": 11758
+      },
+      "duplicate_train_text": 6
+    }
+  },
+  "empty_documents": 0,
+  "max_document_chars": 11422
+}

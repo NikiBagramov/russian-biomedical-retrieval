@@ -1,0 +1,7 @@
+{
+  "bge_unique_pairs": 26843,
+  "bge_pair_tokens_over_512": 10915,
+  "bge_pair_chars_clipped": 17,
+  "scope": "All unique scored query/document pairs, measured after inference without reading qrels",
+  "code_sha256": "6a3321814f37746b718d162becd692fd796b8680ba17730617e99430821c5b90"
+}
