@@ -1,0 +1,11 @@
+{
+  "note": "Uses dev labels for diagnosis only; oracle rankings never used as model predictions",
+  "bounds": {
+    "phase1_rrf20": 0.4354912974617848,
+    "phase1_rrf50": 0.5252731212809909,
+    "phase1_rrf100": 0.5946588729908517,
+    "score_fusion20": 0.4709613315993844,
+    "score_fusion50": 0.5490049363857314,
+    "score_fusion100": 0.6194158341000121
+  }
+}

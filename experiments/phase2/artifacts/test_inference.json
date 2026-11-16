@@ -1,0 +1,10 @@
+{
+  "rows": 323,
+  "pairs": 6460,
+  "run_sha256": "61275ac0c301218cec83e9812a923e6d9a2fb99fa3e64b02a37b720fd284f633",
+  "lock_sha256": "260cfaa1b7b56770c8ba4a850cbe025ea974ccb38e22900ef944cd536414aa6f",
+  "timing": {
+    "new_pairs": 6460,
+    "seconds_this_resume": 2646.4392253999995
+  }
+}

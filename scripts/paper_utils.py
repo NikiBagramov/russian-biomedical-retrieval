@@ -13,7 +13,7 @@ class Paper:
         for i,reference in enumerate(refs,1):self.p(f'[{i}] {reference}')
     def finish(self):
         c=read(ROOT/'project.json')
-        self.p('Воспроизводимость. Протокол: PROTOCOL.md; provenance, dev-lock, предсказания: artifacts/. verify_results.py пересчитывает метрики; run_pipeline.py --reproduce --download создаёт новый эксперимент. Генераторы отчёта находятся в scripts/.')
+        self.p('Воспроизводимость: PROTOCOL.md; scripts/run_pipeline.py --verify. Полный новый запуск: --reproduce --download. Фаза2: experiments/phase2/.')
         dump(ROOT/'report/paper.json',dict(title=self.title,date=datetime.now().strftime('%d.%m.%Y'),blocks=self.blocks))
 
 def fmt(v,n=4):return '-' if v is None else f'{v:.{n}f}'

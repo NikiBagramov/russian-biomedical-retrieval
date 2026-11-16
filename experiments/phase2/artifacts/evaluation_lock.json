@@ -1,0 +1,46 @@
+{
+  "selection": {
+    "qwen4_weight": 1.0,
+    "phase1_weight": 0.0,
+    "retrieval_weight": 0.0,
+    "dev_ndcg10": 0.34949648796407223
+  },
+  "retrieval": {
+    "mode": "zscore",
+    "weights": [
+      0.25,
+      0.5,
+      0.5
+    ],
+    "ndcg10": 0.3271661033572134
+  },
+  "depth": 20,
+  "max_length": 2048,
+  "quantization": "NF4 double quantization; BF16 computation",
+  "model_provenance": {
+    "repo": "Qwen/Qwen3-Reranker-4B",
+    "revision": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+    "weights_sha256": {
+      "model-00001-of-00002.safetensors": "cf2e87cbf71fa628961532232e04dd6c19702a0a057f5e2aff95ea1aca4fd488",
+      "model-00002-of-00002.safetensors": "78946d22b7f6456ea7a5358dbdf3982de36c5bac1f166a5fd58e18e31db8048a"
+    },
+    "seconds": 21.694767599999977,
+    "download": "bounded32MiB HTTP ranges from official Hugging Face; resumed verified-size prefix",
+    "inference_plan": "NF4 double quantization with BF16 computation"
+  },
+  "source_sha256": {
+    "common.py": "95c1ebcac5a62a1d153e8027b0a64ebac2102f9932c4c598d0e943f7b6dfbcb8",
+    "study.py": "a862a68ffe8165a727841524b77aac97d48aafa7aeff58503e6176d13266ce6c",
+    "metrics.py": "478e0c02fb589f64d0527c074db0840ac39b0fa0c2ab5ac8796df4e0d99f0fa4",
+    "sparse.py": "b8ae1574917e9203452f106c69194c67901e0cf0f536aa91b902c94fd591a897",
+    "qwen_probe.py": "1f78f2f8ba32854830fca4a82d61952ac63d72794ceffc252c0678ef9cc988c5",
+    "frozen_pipeline.py": "30cedc80a85480292c40c3057fb2a74224bcb5e81b698b3142bf60bd39de6568",
+    "freeze_phase2.py": "fb3ca056b022a632595515ef8cc07cf09dc1967b9ee4af339fa316848728ae5d",
+    "test_phase2.py": "aca7341bc0e6d4cbb9105924378107ddfb1ed65a3e5f124ac51d1994ae4b3ae9",
+    "evaluate_phase2.py": "8b4adc3a2135510720062f2e6497e0a1acec81a2366555de00b4e00a70d014cc"
+  },
+  "candidate_pool_sha256": "140b46c3ee496e2c88a83f51403c62ac106b74008988bd76629c2dee1aa0634c",
+  "dev_run_sha256": "c5286049c612b4c8133bc33b2728ca583e90bf84abaddb08c2c2027e53b8c12d",
+  "phase1_commit": "aab0c59a4a08736dac40117cda2e759a5818732c",
+  "test_policy": "Original benchmark test was evaluated in phase1. Phase2 development used only official dev; new configuration frozen before phase2 test inference and relevance evaluation."
+}

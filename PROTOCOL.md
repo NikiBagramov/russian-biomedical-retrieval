@@ -43,3 +43,16 @@ Qwen и исходного retrieval: веса Qwen/BGE перебираются
 После dev-выбора фиксируется evaluation_lock с SHA. Test открывается один раз;
 2000 парных bootstrap повторов по queries, seed 10. Неопределённость и время
 обработки приводятся независимо от знака улучшения. SotA не обещается.
+
+
+# Продолжение, 16 ноября 2026
+
+Начальный commit aab0c59 и его результаты сохранены. Цель нового поиска - относительные 5-15% от опубликованного .3483. В фазе1 test уже был оценён; повторное развитие раскрывается. Новая фаза использует только official dev для выбора: 64SHA256-ordered queries с seed-salt 7, затем полный dev: 324 запроса для перспективного варианта. Исходныйprotocol.json сохранён в experiments/phase2/artifacts.
+
+Фиксированная 36-trial score grid: zscore/minmax; BM25 weights .25/.5/1, E5 weights 0/.5/1, Qwen weights .5/1. Нормализация независима для каждого запроса по всем 3633 документам. Выбраны zscore,.25/.5/.5. Получен top-100; Qwen 4B NF4 double quant/BF16, batch 2,лимит 2048 токенов переставляет top-20. Официальный yes/no template и защищённый suffix сохранены. Никаких новых train gradients.
+
+Проверены Jina v3.5 listwise в блоках 4096 tokens / 16 docs, Qwen 0.6B top-50 на новом pool, однораундовое grounded ru/en query expansion от Qwen3-1.7B. Все эти варианты имеют только 64-query screening; числа не смешиваются с полным dev/test. Jina 5 embedding отдельно прошёл лишь compatibility smoke и не включён в performance comparisons или итоговый метод.
+
+Финальная 15-trial сетка: коэффициент Qwen 4B: 1, коэффициент прежней системы 0/.25/.5/.75/1, коэффициент нового retrieval 0/.1/.25, RRF k=60. Выбраны 1/0/0. Перед test сохранён evaluation_lock с SHA кода и candidates; финальный inference adapter повторил 40 dev scores с максимальной ошибкой 0. После lock выполнены 323 test queries и одна relevance evaluation; дальнейшего подбора по этим test scores нет.
+
+Bootstrap seed 10, 2000 парных query resamples. Published aggregate .3483 - численный ориентир; paired CI вычисляется только для локальных запусков. Публикуются все ranks/grades, dev trials, источники, masks и SHA для независимого пересчёта. Foundation weights/raw corpus в Git отсутствуют.

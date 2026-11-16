@@ -1,65 +1,58 @@
-# Русский биомедицинский поиск: RusBEIR + Qwen
+# Русский биомедицинский поиск: обновлённый эксперимент
 
 **Никита Баграмов · Альфия Исхакова**  
 Natural Language Processing & LLMs, autumn 2026.
 
-Полный официальный rus-NFCorpus: 3633 документа, 323 test queries. Текст запроса и документа - основной вход.
+Полный официальный **RusBEIR rus-NFCorpus**: 3633 документа, 324 dev и 323 test queries. Задача - ранжирование документов по текстовому запросу.
 
-RRF(BM25, Qwen embedding), top-20 reranking BGE/Qwen и dev-selected fusion. E5-small/large и BM25+BGE - реально запущенные конкуренты из семейства опубликованных RusBEIR baselines.
+Новая система получила **0.3756 nDCG@10**, против опубликованного **0.3483 BM25+BGE**: наблюдаемый относительный прирост **7.83%**. По сравнению с прежней собственной системой **0.3525** разность **+0.0231**, парный 95% CI **[0.0121,0.0342]**. Сравнение с агрегатом статьи не является парным тестом; различия протоколов описаны ниже.
 
-Все числа ниже - реальные локальные запуски. Выбор `selected` зафиксирован по dev до открытия test; порядок строк не используется для выбора модели.
+**Итоговый метод:** z-score fusion BM25/E5-large/Qwen3-Embedding-0.6B с dev-выбранными весами 0.25/0.5/0.5; top-100 кандидатов; Qwen3-Reranker-4B NF4/BF16 переоценивает top-20 с лимит 2048 токенов. Веса foundation моделей не дообучались на benchmark. Добавление прежнего ансамбля ухудшало dev, поэтому итог содержит один reranker.
 
-| Метод | nDCG@10 |
-|---|---:|
-| bm25 | 0.3038 |
-| bm25_bge_reranker512 | 0.3282 |
-| bm25_raw | 0.2361 |
-| bm25_twofield | 0.3034 |
-| e5_large | 0.3057 |
-| e5_large_bge_reranker512 | 0.3310 |
-| e5_small | 0.2672 |
-| qwen_embedding | 0.2960 |
-| rrf | 0.3297 |
-| rrf_bge_reranker512 | 0.3444 |
-| rrf_qwen_reranker2048 | 0.3482 |
-| rrf_qwen_reranker512 | 0.3396 |
-| selected | 0.3525 |
+| Метод | nDCG@10 | MAP@10 | Recall@10 | MRR@10 |
+|---|---:|---:|---:|---:|
+| Новая итоговая система | 0.3756 | 0.1456 | 0.1839 | 0.5964 |
+| Новый первый этап поиска | 0.3533 | 0.1355 | 0.1722 | 0.5672 |
+| Предыдущая система | 0.3525 | 0.1366 | 0.1743 | 0.5661 |
+| BM25 local | 0.3038 | 0.1177 | 0.1541 | 0.4913 |
+| BM25+BGE local512 | 0.3282 | 0.1264 | 0.1579 | 0.5411 |
+| RRF+Qwen 0.6B | 0.3482 | 0.1332 | 0.1687 | 0.5556 |
 
-Отчёт: [PDF](output/pdf/russian-biomedical-retrieval_report.pdf) · [текст](report/report.md) · [notebook](reproduce.ipynb).
+Все строки таблицы - реальные локальные запуски на одном тесте. Результаты статьи показаны отдельно. Архитектуры Jina v3.5, Qwen 0.6B с большей глубиной и grounded bilingual query expansion проверялись на заранее закреплённых 64 dev-запросах; Qwen 4B прошёл также полный dev: 324 запроса. Полные положительные и отрицательные screens опубликованы.
 
-## Что проверяется
+Отчёт: [PDF](output/pdf/russian-biomedical-retrieval_report.pdf) · [текст](report/report.md) · [выполненный notebook](reproduce.ipynb).
 
-Публичные предсказания и численные artifacts позволяют пересчитать метрики без скачивания моделей:
+## Проверка без моделей и исходных данных
 
 ```bash
 python -m pip install -r requirements.txt
 python scripts/run_pipeline.py --verify
 ```
 
-Точный эксперимент, версии, источники, ограничения и абляции описаны в [PROTOCOL.md](PROTOCOL.md), [ADAPTATIONS.md](ADAPTATIONS.md) и PDF. `artifacts/results.json` содержит интервалы bootstrap (seed 10, 2000 повторов); `artifacts/selection.json` - dev trials. Случайные seeds начинаются с 7; повторы обучения не выбираются по test.
+Проверяются первоначальные результаты и новая фаза: все dev ranks, все 15 финальных trials, все шесть систем на 323 test-запросах, основные/дополнительные метрики и bootstrap CI. Публичные rank/grade artifacts находятся в [experiments/phase2/artifacts](experiments/phase2/artifacts). Старые данные `artifacts/results.json` сохраняют фазу1; актуальная таблица - [phase2/results.csv](experiments/phase2/artifacts/results.csv).
 
-## Полное воспроизведение
+## Полное независимое воспроизведение
 
 ```bash
+python experiments/phase2/scripts/reproduce.py --plan
 python scripts/run_pipeline.py --reproduce --download --report
 ```
 
-Команда создаёт новый каталог `runs/reproduce_*`, скачивает только pinned benchmark files и открытые pretrained weights, проверяет SHA256 и выполняет обучение/inference/оценку заново. Исходные зафиксированные результаты не перезаписываются. Нужны Python 3.10-3.12 и CUDA GPU с поддержкой BF16. Измеренный запуск выполнен на RTX 3060 Laptop 6GB; T4/FP16 не проверялись. Полный запуск занимает часы, notebook по умолчанию только проверяет опубликованные artifacts. Конкретные wall-clock значения и версии находятся в manifests; stable PyTorch 2.6 в requirements - переносимая среда, фактически использовалась указанная в environment.json development CUDA-сборка.
+Создаётся новый `runs/phase2_reproduce_*`. Сначала повторяется первоначальный baseline pipeline, затем screening и полный новый метод. Pinned weights скачиваются с официального Hugging Face, проверяются SHA256; при необходимости загрузка использует32 MiB HTTP ranges. Никаких платных API. Нужны BF16 CUDA GPU и часы вычислений; измеренный запуск использовал RTX 3060 Laptop 6 GB. T4/FP16 не проверялись. Notebook по умолчанию проверяет artifacts, а полный новый прогон выключен. При отличающемся выборе финальных весов повтор останавливается явно, поскольку опубликованная конфигурация 1/0/0 должна быть воспроизведена, а не заменена другой.
 
-Для создания PDF нужен ReportLab и шрифт Times New Roman на Windows либо DejaVu Serif на Linux. Веса и сырые benchmark-файлы в Git не включены; публичные источники и точные ревизии записаны в `artifacts/*provenance.json`.
+Стабильный PyTorch 2.6 в requirements - переносимая среда; фактически использовалась 2.6 development CUDA-сборка из environment manifests. Кросс-аппаратное битовое равенство не обещается. Полный повтор отдельных stages уже выполнен в зафиксированном эксперименте; быстрый notebook не выдаётся за повторное обучение/inference.
 
-## Ограничения
+## Ограничения и сравнимость
 
-CPU BM25s отличается от Elasticsearch статьи. BGE 512-token cap взят из pinned source; статья указывает другую длину. Финальная композиция выбирает веса на dev и не является строго zero-shot. Глобальное SotA не доказано.
+Исходный test уже оценивался в фазе 1. Новая фаза подбирала конфигурацию только по dev и фиксировала SHA до нового test inference; это не совершенно новый скрытый benchmark. CPU BM25s отличается от Elasticsearch статьи, различаются token budgets и число параметров. Dev-adapted fusion не равен строго zero-shot protocol. В Jina listwise context разбит на небольшие блоки под 6 GB; результат этого адаптированного режима не переносится на полный 131K protocol. Неполные qrels и неизвестная экспозиция pretrained моделей ограничивают выводы. **Мировое SotA и автоматическое начисление бонусов не заявляются.**
 
-Опубликованные paper/model-card значения в PDF отделены от наших повторов. Лучший результат этой таблицы не объявляется мировым SotA. Runtime отдельных этапов мог измеряться одновременно с другим независимым GPU экспериментом, поэтому он не является контролируемым сравнением скорости систем.
+Предыдущая опубликованная версия сохранена в commit [aab0c59](https://github.com/NikiBagramov/russian-biomedical-retrieval/tree/aab0c59a4a08736dac40117cda2e759a5818732c). [PROTOCOL.md](PROTOCOL.md), [ADAPTATIONS.md](ADAPTATIONS.md), [SUBMISSION.md](SUBMISSION.md) описывают обе фазы.
 
-## Источники
+## Первичные источники
 
-- https://arxiv.org/abs/2504.12879
-- https://arxiv.org/abs/2402.05672
-- https://arxiv.org/abs/2506.05176
-
-## Сдача
-
-В поле «Решение»: `https://github.com/NikiBagramov/russian-biomedical-retrieval`. Приложить PDF из `output/pdf/`. Покрытие критериев и условия бонусов: [SUBMISSION.md](SUBMISSION.md).
+- [RusBEIR2025](https://arxiv.org/abs/2504.12879)
+- [Расширенный RusBEIR](https://arxiv.org/abs/2511.05079)
+- [Qwen3 Embedding/Reranking](https://arxiv.org/abs/2506.05176)
+- [Jina reranker v3.5, 2026](https://arxiv.org/abs/2607.18152)
+- [ThinkQE](https://arxiv.org/abs/2506.09260)
+- [QA-Expand](https://arxiv.org/abs/2502.08557)

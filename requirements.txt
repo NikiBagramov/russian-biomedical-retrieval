@@ -16,3 +16,5 @@ pillow>=10,<12
 pypdf>=5,<6
 bm25s==0.2.14
 pytrec-eval-terrier==0.5.11
+
+bitsandbytes==0.48.2

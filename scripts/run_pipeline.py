@@ -8,6 +8,11 @@ def call(script,*args):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--reproduce',action='store_true');ap.add_argument('--run',action='store_true');ap.add_argument('--download',action='store_true');ap.add_argument('--verify',action='store_true');ap.add_argument('--report',action='store_true');a=ap.parse_args()
+    if a.reproduce and (ROOT/'experiments/phase2/artifacts/final_results.json').exists():
+        command=[sys.executable,str(ROOT/'experiments/phase2/scripts/reproduce.py')]
+        if a.download:command.append('--download')
+        if a.report:command.append('--report')
+        subprocess.run(command,check=True,cwd=ROOT);return
     if a.reproduce:
         destination=ROOT/'runs'/('reproduce_'+datetime.now().strftime('%Y%m%d_%H%M%S'));destination.mkdir(parents=True)
         for folder in ['scripts','third_party']:
@@ -40,7 +45,9 @@ def main():
         else:
             call('metrics.py');call('sparse.py');call('neural.py');call('context_audit.py');call('choose.py');call('evaluate.py')
         call('verify_results.py');call('error_analysis.py')
-    if a.verify:call('verify_results.py')
+    if a.verify:
+        call('verify_results.py')
+        if (ROOT/'experiments/phase2/artifacts/final_results.json').exists():call('verify_phase2.py')
     if a.report:
         call('figures.py');call('make_paper.py');call('build_report.py')
     if not any(vars(a).values()):ap.print_help()

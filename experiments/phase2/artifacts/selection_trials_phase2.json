@@ -1,0 +1,118 @@
+{
+  "grid_predeclared_before_test": [
+    {
+      "phase1_weight": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "retrieval_weight": [
+        0.0,
+        0.1,
+        0.25
+      ]
+    }
+  ],
+  "trials": [
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.0,
+      "retrieval_weight": 0.0,
+      "dev_ndcg10": 0.34949648796407223
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.0,
+      "retrieval_weight": 0.1,
+      "dev_ndcg10": 0.34900348558129074
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.0,
+      "retrieval_weight": 0.25,
+      "dev_ndcg10": 0.34930156069614693
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.25,
+      "retrieval_weight": 0.0,
+      "dev_ndcg10": 0.34003373933233394
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.25,
+      "retrieval_weight": 0.1,
+      "dev_ndcg10": 0.3416187526656099
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.25,
+      "retrieval_weight": 0.25,
+      "dev_ndcg10": 0.3402475841022584
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.5,
+      "retrieval_weight": 0.0,
+      "dev_ndcg10": 0.33478565051925585
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.5,
+      "retrieval_weight": 0.1,
+      "dev_ndcg10": 0.3353653795557859
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.5,
+      "retrieval_weight": 0.25,
+      "dev_ndcg10": 0.33431079121742674
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.75,
+      "retrieval_weight": 0.0,
+      "dev_ndcg10": 0.3299979293945988
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.75,
+      "retrieval_weight": 0.1,
+      "dev_ndcg10": 0.330513599010029
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 0.75,
+      "retrieval_weight": 0.25,
+      "dev_ndcg10": 0.3300921283911685
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 1.0,
+      "retrieval_weight": 0.0,
+      "dev_ndcg10": 0.3292244141331004
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 1.0,
+      "retrieval_weight": 0.1,
+      "dev_ndcg10": 0.329201383807088
+    },
+    {
+      "qwen4_weight": 1.0,
+      "phase1_weight": 1.0,
+      "retrieval_weight": 0.25,
+      "dev_ndcg10": 0.3289366258313573
+    }
+  ],
+  "selected": {
+    "qwen4_weight": 1.0,
+    "phase1_weight": 0.0,
+    "retrieval_weight": 0.0,
+    "dev_ndcg10": 0.34949648796407223
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "captured": "2026-11-14T00:44:57.426867+00:00",
+  "python": "3.10.6",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "versions": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.7.2",
+    "torch": "2.6.0.dev20241112+cu121",
+    "transformers": "4.57.6",
+    "accelerate": "1.12.0",
+    "peft": "0.17.1",
+    "huggingface-hub": "0.36.0",
+    "bm25s": "0.2.14",
+    "pytrec-eval-terrier": "0.5.11",
+    "ru-errant": "2.3.0",
+    "spacy": "3.7.5",
+    "ru-core-news-lg": "3.7.0",
+    "Levenshtein": "0.27.4"
+  },
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU, 6144 MiB, 566.14",
+  "threads": 4,
+  "determinism": "Seeded Python/NumPy/PyTorch. GPU kernels and batched BF16 can differ across hardware/library releases; statistical rather than bit-exact reproduction expected.",
+  "captured_phase2": "2026-11-16T03:28:03.181713+00:00",
+  "extra_versions": {
+    "bitsandbytes": "0.48.2"
+  },
+  "note": "Same Python/Torch/CUDA installation as phase1; bitsandbytes added without dependency upgrades."
+}

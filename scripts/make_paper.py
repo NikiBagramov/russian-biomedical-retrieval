@@ -56,4 +56,8 @@ def main():
     p.p(f'Создан воспроизводимый текстовый retrieval benchmark с реальными опубликованными конкурентами на том же официальном dataset. Итоговая dev-adapted композиция даёт nDCG@10 {fmt(selected["ndcg_cut_10"])}; её вклад оценивается по парным интервалам и всем абляциям. Главный результат - измеренное поведение lexical/dense/reranking компонентов при явных ограничениях, а не перенос чужой цифры из статьи в собственную таблицу.')
     p.references(['Thakur et al. 2021. BEIR: A Heterogeneous Benchmark for Zero-shot Evaluation of Information Retrieval Models. NeurIPS Datasets and Benchmarks. https://arxiv.org/abs/2104.08663','Kovalev et al. 2025. Building Russian Benchmark for Evaluation of Information Retrieval Models. https://arxiv.org/abs/2504.12879','Wang et al. 2024. Multilingual E5 Text Embeddings: A Technical Report. https://arxiv.org/abs/2402.05672','BAAI. bge-reranker-v2-m3 official checkpoint and usage. https://huggingface.co/BAAI/bge-reranker-v2-m3','Zhang et al. 2025. Qwen3 Embedding: Advancing Text Embedding and Reranking Through Foundation Models. https://arxiv.org/abs/2506.05176','Cormack, Clarke and Büttcher. 2009. Reciprocal rank fusion outperforms condorcet and individual rank learning methods. SIGIR. https://doi.org/10.1145/1571941.1572114','kaengreg. RusBEIR source and data release. https://github.com/kaengreg/rusBEIR'])
     p.finish()
-if __name__=='__main__':main()
+if __name__=='__main__':
+    if (ROOT/'experiments/phase2/artifacts/final_results.json').exists():
+        from make_paper_phase2 import main as phase2_main
+        phase2_main()
+    else:main()
