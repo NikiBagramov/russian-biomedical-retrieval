@@ -1,0 +1,1332 @@
+{
+  "checked_utc": "2026-11-16T10:09:41.260698+00:00",
+  "dataset": {
+    "name": "rus-nfcorpus",
+    "hf_repo": "kaengreg/rus-nfcorpus",
+    "qrels_repo": "kaengreg/rus-nfcorpus-qrels",
+    "split": "test",
+    "task": "Bio-Medical IR",
+    "origin": "BEIR translation",
+    "official": true
+  },
+  "dataset_revisions": [
+    {
+      "repo": "kaengreg/rus-nfcorpus",
+      "revision": "66f87c5cb6e134ab138e9421290d077a85f17846",
+      "last_modified": "2025-01-27T20:42:01.000Z"
+    },
+    {
+      "repo": "kaengreg/rus-nfcorpus-qrels",
+      "revision": "2dc2e7fe5e08187db84eeb1da7c3a19d70508337",
+      "last_modified": "2024-08-23T11:55:41.000Z"
+    }
+  ],
+  "our_metrics": {
+    "ndcg10": 0.3755845145549592,
+    "map10": 0.14562487345013647,
+    "recall10": 0.18389865658118365,
+    "recall100": 0.30867127562588526,
+    "mrr10": 0.5964015430733698,
+    "precision10": 0.26965944272445824
+  },
+  "our_results_sha256": "2f919a931c43ece5b02ff360cf10ffa0724682dd0c528e43325154d69d0da166",
+  "strongest_found": {
+    "model_id": "ai-sage/Giga-Embeddings-instruct",
+    "name": "Giga-Embeddings-instruct",
+    "date": "2026-08-11",
+    "metrics": {
+      "ndcg10": 0.36834,
+      "map10": 0.13987,
+      "recall10": 0.18274,
+      "recall100": 0.344,
+      "mrr10": 0.5612,
+      "precision10": 0.27337
+    },
+    "verified_label": true,
+    "source_url": "",
+    "rerank_top_k": null,
+    "relative_our_ndcg10_gain": 0.01966800932551238
+  },
+  "relative_gain_vs_strongest_found": 0.01966800932551238,
+  "absolute_gain_vs_strongest_found": 0.007244514554959225,
+  "newer_reference_target_5pct": 0.386757,
+  "newer_reference_target_15pct": 0.423591,
+  "newer_reference_target_5pct_met": false,
+  "original_predeclared_paper_reference": {
+    "ndcg10": 0.3483,
+    "relative_gain": 0.07833624621004653,
+    "source": "https://arxiv.org/html/2504.12879v1#S5",
+    "scope": "Best row on rus-NFCorpus in two inspected 2025 papers; not the strongest result found in the wider 2026 search"
+  },
+  "sources": [
+    {
+      "name": "Official RusBEIR Space data",
+      "commit": "2d78ee50b9e6b1d4075f18606dd0965686af3d81",
+      "url": "https://huggingface.co/spaces/kaengreg/rusBEIR/blob/2d78ee50b9e6b1d4075f18606dd0965686af3d81/data/results.jsonl",
+      "sha256": "9bdcd8f79774a5c29dcf04fa6f019bbde3f55c9d575b94776c68d183bfcf277b",
+      "rows": 24,
+      "results": [
+        {
+          "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0+Qwen/Qwen3-Reranker-8B",
+          "name": "snowflake-arctic+Qwen3-Reranker-8B",
+          "date": "2026-08-02",
+          "metrics": {
+            "ndcg10": 0.35099,
+            "map10": 0.13482,
+            "recall10": 0.1647,
+            "recall100": 0.18383,
+            "mrr10": 0.5497,
+            "precision10": 0.25015
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.07007183838559272
+        },
+        {
+          "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0+Qwen/Qwen3-Reranker-4B",
+          "name": "snowflake-arctic+Qwen3-Reranker-4B",
+          "date": "2026-08-01",
+          "metrics": {
+            "ndcg10": 0.3499,
+            "map10": 0.13486,
+            "recall10": 0.16541,
+            "recall100": 0.18383,
+            "mrr10": 0.54821,
+            "precision10": 0.25108
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.07340530024281011
+        },
+        {
+          "model_id": "bm25+Qwen/Qwen3-Reranker-8B",
+          "name": "BM25+Qwen3-Reranker-8B",
+          "date": "2026-07-29",
+          "metrics": {
+            "ndcg10": 0.34626,
+            "map10": 0.13405,
+            "recall10": 0.16414,
+            "recall100": 0.18063,
+            "mrr10": 0.56743,
+            "precision10": 0.23839
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.08468929288673022
+        },
+        {
+          "model_id": "bm25+Qwen/Qwen3-Reranker-4B",
+          "name": "BM25+Qwen3-Reranker-4B",
+          "date": "2026-07-19",
+          "metrics": {
+            "ndcg10": 0.34325,
+            "map10": 0.13302,
+            "recall10": 0.15941,
+            "recall100": 0.18063,
+            "mrr10": 0.55843,
+            "precision10": 0.23901
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.09420106206834444
+        },
+        {
+          "model_id": "ai-forever/FRIDA+Qwen/Qwen3-Reranker-8B",
+          "name": "FRIDA+Qwen3-Reranker-8B",
+          "date": "2026-08-08",
+          "metrics": {
+            "ndcg10": 0.34287,
+            "map10": 0.12949,
+            "recall10": 0.15495,
+            "recall100": 0.16969,
+            "mrr10": 0.54606,
+            "precision10": 0.24675
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.09541375610277725
+        },
+        {
+          "model_id": "ai-forever/FRIDA+Qwen/Qwen3-Reranker-4B",
+          "name": "FRIDA+Qwen3-Reranker-4B",
+          "date": "2026-08-06",
+          "metrics": {
+            "ndcg10": 0.34281,
+            "map10": 0.13002,
+            "recall10": 0.15355,
+            "recall100": 0.16969,
+            "mrr10": 0.55073,
+            "precision10": 0.24737
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.09560547987211354
+        },
+        {
+          "model_id": "Snowflake__snowflake-arctic-embed-l-v2.0+Qwen/Qwen3-Reranker-0.6B",
+          "name": "snowflake-arctic+Qwen3-Reranker-0.6B",
+          "date": "2026-07-29",
+          "metrics": {
+            "ndcg10": 0.33575,
+            "map10": 0.12621,
+            "recall10": 0.1597,
+            "recall100": 0.18383,
+            "mrr10": 0.52899,
+            "precision10": 0.24365
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.11864337916592471
+        },
+        {
+          "model_id": "bm25+Qwen/Qwen3-Reranker-0.6B",
+          "name": "BM25+Qwen3-Reranker-0.6B",
+          "date": "2026-07-15",
+          "metrics": {
+            "ndcg10": 0.33369,
+            "map10": 0.12775,
+            "recall10": 0.15743,
+            "recall100": 0.18063,
+            "mrr10": 0.5424,
+            "precision10": 0.23282
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.1255492060144423
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-large+BAAI/bge-reranker-v2-m3",
+          "name": "multilingual-e5-large+BGE-Reranker-v2-m3",
+          "date": "2026-07-02",
+          "metrics": {
+            "ndcg10": 0.33271,
+            "map10": 0.12668,
+            "recall10": 0.15853,
+            "recall100": 0.18719,
+            "mrr10": 0.53356,
+            "precision10": 0.23994
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.128864520317872
+        },
+        {
+          "model_id": "ai-forever/FRIDA+Qwen/Qwen3-Reranker-0.6B",
+          "name": "FRIDA+Qwen3-Reranker-0.6B",
+          "date": "2026-08-01",
+          "metrics": {
+            "ndcg10": 0.32997,
+            "map10": 0.12145,
+            "recall10": 0.1494,
+            "recall100": 0.16969,
+            "mrr10": 0.53284,
+            "precision10": 0.23715
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.1382383688061315
+        },
+        {
+          "model_id": "bm25+BAAI/bge-reranker-v2-m3",
+          "name": "BM25+BGE-Reranker-v2-m3",
+          "date": "2026-07-02",
+          "metrics": {
+            "ndcg10": 0.32859,
+            "map10": 0.12451,
+            "recall10": 0.15601,
+            "recall100": 0.18063,
+            "mrr10": 0.53853,
+            "precision10": 0.23313
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.14301869976249804
+        },
+        {
+          "model_id": "ai-forever/FRIDA+BAAI/bge-reranker-v2-m3",
+          "name": "FRIDA+BGE-Reranker-v2-m3",
+          "date": "2026-07-02",
+          "metrics": {
+            "ndcg10": 0.32587,
+            "map10": 0.11993,
+            "recall10": 0.14741,
+            "recall100": 0.16969,
+            "mrr10": 0.52789,
+            "precision10": 0.23653
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.15255934745438138
+        },
+        {
+          "model_id": "BAAI/bge-m3+BAAI/bge-reranker-v2-m3",
+          "name": "BGE-M3+BGE-Reranker-v2-m3",
+          "date": "2026-07-02",
+          "metrics": {
+            "ndcg10": 0.32183,
+            "map10": 0.12174,
+            "recall10": 0.14951,
+            "recall100": 0.1726,
+            "mrr10": 0.52822,
+            "precision10": 0.23034
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.16702766850498474
+        },
+        {
+          "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+          "name": "snowflake-arctic-embed-l-v2.0",
+          "date": "2026-07-25",
+          "metrics": {
+            "ndcg10": 0.31519,
+            "map10": 0.11514,
+            "recall10": 0.15028,
+            "recall100": 0.27422,
+            "mrr10": 0.51124,
+            "precision10": 0.23251
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.19161304151451253
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-large",
+          "name": "multilingual-e5-large",
+          "date": "2026-06-29",
+          "metrics": {
+            "ndcg10": 0.31285,
+            "map10": 0.11778,
+            "recall10": 0.15843,
+            "recall100": 0.28573,
+            "mrr10": 0.50321,
+            "precision10": 0.22879
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.20052585761534036
+        },
+        {
+          "model_id": "BAAI/bge-m3",
+          "name": "BGE-M3",
+          "date": "2026-07-01",
+          "metrics": {
+            "ndcg10": 0.30684,
+            "map10": 0.11396,
+            "recall10": 0.14811,
+            "recall100": 0.2656,
+            "mrr10": 0.51048,
+            "precision10": 0.22074
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.22404026383443898
+        },
+        {
+          "model_id": "bm25",
+          "name": "BM25",
+          "date": "2026-07-01",
+          "metrics": {
+            "ndcg10": 0.30449,
+            "map10": 0.11787,
+            "recall10": 0.15588,
+            "recall100": 0.24516,
+            "mrr10": 0.48802,
+            "precision10": 0.21796
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.23348719023599873
+        },
+        {
+          "model_id": "deepvk/USER-bge-m3",
+          "name": "BGE-en-rus",
+          "date": "2026-06-30",
+          "metrics": {
+            "ndcg10": 0.30384,
+            "map10": 0.11175,
+            "recall10": 0.14502,
+            "recall100": 0.27264,
+            "mrr10": 0.50587,
+            "precision10": 0.21889
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.23612596944101916
+        },
+        {
+          "model_id": "ai-forever/FRIDA",
+          "name": "FRIDA",
+          "date": "2026-06-29",
+          "metrics": {
+            "ndcg10": 0.29514,
+            "map10": 0.10481,
+            "recall10": 0.13951,
+            "recall100": 0.26881,
+            "mrr10": 0.48497,
+            "precision10": 0.21641
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.2725639173102907
+        },
+        {
+          "model_id": "Qwen/Qwen3-Embedding-0.6B",
+          "name": "Qwen3-Embedding-0.6B",
+          "date": "2026-07-09",
+          "metrics": {
+            "ndcg10": 0.28482,
+            "map10": 0.10188,
+            "recall10": 0.13708,
+            "recall100": 0.26913,
+            "mrr10": 0.48556,
+            "precision10": 0.20526
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.31867324820925225
+        },
+        {
+          "model_id": "ai-forever/ru-en-RoSBERTa",
+          "name": "ru-en-RoSBERTa",
+          "date": "2026-06-29",
+          "metrics": {
+            "ndcg10": 0.27154,
+            "map10": 0.10006,
+            "recall10": 0.13099,
+            "recall100": 0.25742,
+            "mrr10": 0.4787,
+            "precision10": 0.19505
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.3831645965786228
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-base",
+          "name": "multilingual-e5-base",
+          "date": "2026-06-29",
+          "metrics": {
+            "ndcg10": 0.26651,
+            "map10": 0.09161,
+            "recall10": 0.12603,
+            "recall100": 0.2416,
+            "mrr10": 0.45437,
+            "precision10": 0.19381
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.4092698756330313
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "name": "multilingual-e5-small",
+          "date": "2026-06-30",
+          "metrics": {
+            "ndcg10": 0.26465,
+            "map10": 0.09218,
+            "recall10": 0.12205,
+            "recall100": 0.25263,
+            "mrr10": 0.44712,
+            "precision10": 0.19505
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.4191744362552776
+        },
+        {
+          "model_id": "sentence-transformers/LaBSE",
+          "name": "LaBSE",
+          "date": "2026-07-01",
+          "metrics": {
+            "ndcg10": 0.15109,
+            "map10": 0.04147,
+            "recall10": 0.06639,
+            "recall100": 0.16823,
+            "mrr10": 0.28188,
+            "precision10": 0.11827
+          },
+          "verified_label": false,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 1.4858330435830247
+        }
+      ]
+    },
+    {
+      "name": "Independent RusBEIR-lite",
+      "commit": "ef8a174bbc1c1d344066bc98fd22813196ae0ef6",
+      "url": "https://huggingface.co/spaces/sergeyzh/rusBEIR-lite/blob/ef8a174bbc1c1d344066bc98fd22813196ae0ef6/results.jsonl",
+      "sha256": "d3534207f0bffb6101ce419a8650217b754091a2ced54af67192f9a0c27fc79b",
+      "rows": 46,
+      "results": [
+        {
+          "model_id": "ai-sage/Giga-Embeddings-instruct",
+          "name": "Giga-Embeddings-instruct",
+          "date": "2026-08-11",
+          "metrics": {
+            "ndcg10": 0.36834,
+            "map10": 0.13987,
+            "recall10": 0.18274,
+            "recall100": 0.344,
+            "mrr10": 0.5612,
+            "precision10": 0.27337
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.01966800932551238
+        },
+        {
+          "model_id": "ai-sage/Giga-Embeddings-instruct-3B-0826",
+          "name": "Giga-Embeddings-instruct-3B-0826",
+          "date": "2026-09-06",
+          "metrics": {
+            "ndcg10": 0.36375,
+            "map10": 0.13787,
+            "recall10": 0.18329,
+            "recall100": 0.34593,
+            "mrr10": 0.55908,
+            "precision10": 0.26873
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.03253474791741362
+        },
+        {
+          "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0+Qwen/Qwen3-Reranker-8B",
+          "name": "snowflake-arctic+Qwen3-Reranker-8B",
+          "date": "2026-08-02",
+          "metrics": {
+            "ndcg10": 0.35099,
+            "map10": 0.13482,
+            "recall10": 0.1647,
+            "recall100": 0.18383,
+            "mrr10": 0.5497,
+            "precision10": 0.25015
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.07007183838559272
+        },
+        {
+          "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0+Qwen/Qwen3-Reranker-4B",
+          "name": "snowflake-arctic+Qwen3-Reranker-4B",
+          "date": "2026-08-01",
+          "metrics": {
+            "ndcg10": 0.3499,
+            "map10": 0.13486,
+            "recall10": 0.16541,
+            "recall100": 0.18383,
+            "mrr10": 0.54821,
+            "precision10": 0.25108
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.07340530024281011
+        },
+        {
+          "model_id": "bm25+Qwen/Qwen3-Reranker-8B",
+          "name": "BM25+Qwen3-Reranker-8B",
+          "date": "2026-07-29",
+          "metrics": {
+            "ndcg10": 0.34626,
+            "map10": 0.13405,
+            "recall10": 0.16414,
+            "recall100": 0.18063,
+            "mrr10": 0.56743,
+            "precision10": 0.23839
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.08468929288673022
+        },
+        {
+          "model_id": "ai-sage/Giga-Embeddings-instruct+BAAI/bge-reranker-v2-m3",
+          "name": "Giga-Embeddings-instruct+BGE-Reranker-v2-m3",
+          "date": "2026-08-11",
+          "metrics": {
+            "ndcg10": 0.34371,
+            "map10": 0.13252,
+            "recall10": 0.16772,
+            "recall100": 0.344,
+            "mrr10": 0.5526,
+            "precision10": 0.24458
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 100,
+          "relative_our_ndcg10_gain": 0.09273665169753342
+        },
+        {
+          "model_id": "bm25+Qwen/Qwen3-Reranker-4B",
+          "name": "BM25+Qwen3-Reranker-4B",
+          "date": "2026-07-19",
+          "metrics": {
+            "ndcg10": 0.34325,
+            "map10": 0.13302,
+            "recall10": 0.15941,
+            "recall100": 0.18063,
+            "mrr10": 0.55843,
+            "precision10": 0.23901
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.09420106206834444
+        },
+        {
+          "model_id": "ai-sage/Giga-Embeddings-instruct-480M-0826",
+          "name": "Giga-Embeddings-instruct-480M-0826",
+          "date": "2026-08-29",
+          "metrics": {
+            "ndcg10": 0.34321,
+            "map10": 0.12935,
+            "recall10": 0.1701,
+            "recall100": 0.32713,
+            "mrr10": 0.54648,
+            "precision10": 0.25015
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.09432858761387841
+        },
+        {
+          "model_id": "ai-forever/FRIDA+Qwen/Qwen3-Reranker-8B",
+          "name": "FRIDA+Qwen3-Reranker-8B",
+          "date": "2026-08-08",
+          "metrics": {
+            "ndcg10": 0.34287,
+            "map10": 0.12949,
+            "recall10": 0.15495,
+            "recall100": 0.16969,
+            "mrr10": 0.54606,
+            "precision10": 0.24675
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.09541375610277725
+        },
+        {
+          "model_id": "ai-forever/FRIDA+Qwen/Qwen3-Reranker-4B",
+          "name": "FRIDA+Qwen3-Reranker-4B",
+          "date": "2026-08-06",
+          "metrics": {
+            "ndcg10": 0.34281,
+            "map10": 0.13002,
+            "recall10": 0.15355,
+            "recall100": 0.16969,
+            "mrr10": 0.55073,
+            "precision10": 0.24737
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.09560547987211354
+        },
+        {
+          "model_id": "google/embeddinggemma-300m+BAAI/bge-reranker-v2-m3",
+          "name": "embeddinggemma-300m+BGE-Reranker",
+          "date": "2026-07-25",
+          "metrics": {
+            "ndcg10": 0.33917,
+            "map10": 0.12881,
+            "recall10": 0.16458,
+            "recall100": 0.31552,
+            "mrr10": 0.5402,
+            "precision10": 0.24396
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 100,
+          "relative_our_ndcg10_gain": 0.10736360690792002
+        },
+        {
+          "model_id": "ai-sage/Giga-Retrieval-instruct",
+          "name": "Giga-Retrieval-instruct",
+          "date": "2026-08-17",
+          "metrics": {
+            "ndcg10": 0.33626,
+            "map10": 0.12164,
+            "recall10": 0.1625,
+            "recall100": 0.30491,
+            "mrr10": 0.53728,
+            "precision10": 0.24954
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.11694675118943443
+        },
+        {
+          "model_id": "Snowflake__snowflake-arctic-embed-l-v2.0+Qwen/Qwen3-Reranker-0.6B",
+          "name": "snowflake-arctic+Qwen3-Reranker-0.6B",
+          "date": "2026-07-29",
+          "metrics": {
+            "ndcg10": 0.33575,
+            "map10": 0.12621,
+            "recall10": 0.1597,
+            "recall100": 0.18383,
+            "mrr10": 0.52899,
+            "precision10": 0.24365
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.11864337916592471
+        },
+        {
+          "model_id": "bm25+Qwen/Qwen3-Reranker-0.6B",
+          "name": "BM25+Qwen3-Reranker-0.6B",
+          "date": "2026-07-15",
+          "metrics": {
+            "ndcg10": 0.33369,
+            "map10": 0.12775,
+            "recall10": 0.15743,
+            "recall100": 0.18063,
+            "mrr10": 0.5424,
+            "precision10": 0.23282
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.1255492060144423
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-large+BAAI/bge-reranker-v2-m3",
+          "name": "multilingual-e5-large+BGE Reranker",
+          "date": "2026-07-02",
+          "metrics": {
+            "ndcg10": 0.33271,
+            "map10": 0.12668,
+            "recall10": 0.15853,
+            "recall100": 0.18719,
+            "mrr10": 0.53356,
+            "precision10": 0.23994
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.128864520317872
+        },
+        {
+          "model_id": "google/embeddinggemma-300m",
+          "name": "embeddinggemma-300m",
+          "date": "2026-07-24",
+          "metrics": {
+            "ndcg10": 0.33138,
+            "map10": 0.12283,
+            "recall10": 0.16617,
+            "recall100": 0.31552,
+            "mrr10": 0.5108,
+            "precision10": 0.24861
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.1333952397699294
+        },
+        {
+          "model_id": "sergeyzh/BERTA+BAAI/bge-reranker-v2-m3",
+          "name": "BERTA+BGE-Reranker-v2-m3",
+          "date": "2026-07-20",
+          "metrics": {
+            "ndcg10": 0.33097,
+            "map10": 0.12542,
+            "recall10": 0.15486,
+            "recall100": 0.26273,
+            "mrr10": 0.52958,
+            "precision10": 0.23746
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 100,
+          "relative_our_ndcg10_gain": 0.13479927049267082
+        },
+        {
+          "model_id": "ai-forever/FRIDA+Qwen/Qwen3-Reranker-0.6B",
+          "name": "FRIDA+Qwen3-Reranker-0.6B",
+          "date": "2026-08-01",
+          "metrics": {
+            "ndcg10": 0.32997,
+            "map10": 0.12145,
+            "recall10": 0.1494,
+            "recall100": 0.16969,
+            "mrr10": 0.53284,
+            "precision10": 0.23715
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.1382383688061315
+        },
+        {
+          "model_id": "bm25+BAAI/bge-reranker-v2-m3",
+          "name": "BM25+BGE-Reranker-v2-m3",
+          "date": "2026-07-02",
+          "metrics": {
+            "ndcg10": 0.32859,
+            "map10": 0.12451,
+            "recall10": 0.15601,
+            "recall100": 0.18063,
+            "mrr10": 0.53853,
+            "precision10": 0.23313
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.14301869976249804
+        },
+        {
+          "model_id": "ai-forever/FRIDA+BAAI/bge-reranker-v2-m3",
+          "name": "FRIDA+BGE-Reranker-v2-m3",
+          "date": "2026-07-02",
+          "metrics": {
+            "ndcg10": 0.32587,
+            "map10": 0.11993,
+            "recall10": 0.14741,
+            "recall100": 0.16969,
+            "mrr10": 0.52789,
+            "precision10": 0.23653
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.15255934745438138
+        },
+        {
+          "model_id": "deepvk/USER2-base",
+          "name": "USER2-base",
+          "date": "2026-07-31",
+          "metrics": {
+            "ndcg10": 0.32451,
+            "map10": 0.12086,
+            "recall10": 0.16004,
+            "recall100": 0.30991,
+            "mrr10": 0.52555,
+            "precision10": 0.23622
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.15738964763785157
+        },
+        {
+          "model_id": "BAAI/bge-m3+BAAI/bge-reranker-v2-m3",
+          "name": "bge-m3+BGE-Reranker-v2-m3",
+          "date": "2026-07-02",
+          "metrics": {
+            "ndcg10": 0.32183,
+            "map10": 0.12174,
+            "recall10": 0.14951,
+            "recall100": 0.1726,
+            "mrr10": 0.52822,
+            "precision10": 0.23034
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 20,
+          "relative_our_ndcg10_gain": 0.16702766850498474
+        },
+        {
+          "model_id": "sergeyzh/rubert-mini-frida+BAAI/bge-reranker-v2-m3",
+          "name": "rubert-mini-frida+BGE-Reranker",
+          "date": "2026-07-23",
+          "metrics": {
+            "ndcg10": 0.31579,
+            "map10": 0.11921,
+            "recall10": 0.14563,
+            "recall100": 0.24421,
+            "mrr10": 0.50995,
+            "precision10": 0.22693
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": 100,
+          "relative_our_ndcg10_gain": 0.18934898050907
+        },
+        {
+          "model_id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+          "name": "snowflake-arctic-embed-l-v2.0",
+          "date": "2026-07-25",
+          "metrics": {
+            "ndcg10": 0.31519,
+            "map10": 0.11514,
+            "recall10": 0.15028,
+            "recall100": 0.27422,
+            "mrr10": 0.51124,
+            "precision10": 0.23251
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.19161304151451253
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-large",
+          "name": "multilingual-e5-large",
+          "date": "2026-06-29",
+          "metrics": {
+            "ndcg10": 0.31285,
+            "map10": 0.11778,
+            "recall10": 0.15843,
+            "recall100": 0.28573,
+            "mrr10": 0.50321,
+            "precision10": 0.22879
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.20052585761534036
+        },
+        {
+          "model_id": "BAAI/bge-m3",
+          "name": "bge-m3",
+          "date": "2026-07-01",
+          "metrics": {
+            "ndcg10": 0.30684,
+            "map10": 0.11396,
+            "recall10": 0.14811,
+            "recall100": 0.2656,
+            "mrr10": 0.51048,
+            "precision10": 0.22074
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.22404026383443898
+        },
+        {
+          "model_id": "bm25",
+          "name": "BM25 (lemmatized)",
+          "date": "2026-07-01",
+          "metrics": {
+            "ndcg10": 0.30449,
+            "map10": 0.11787,
+            "recall10": 0.15588,
+            "recall100": 0.24516,
+            "mrr10": 0.48802,
+            "precision10": 0.21796
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.23348719023599873
+        },
+        {
+          "model_id": "deepvk/USER-bge-m3",
+          "name": "USER-bge-m3",
+          "date": "2026-06-30",
+          "metrics": {
+            "ndcg10": 0.30384,
+            "map10": 0.11175,
+            "recall10": 0.14502,
+            "recall100": 0.27264,
+            "mrr10": 0.50587,
+            "precision10": 0.21889
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.23612596944101916
+        },
+        {
+          "model_id": "deepvk/USER2-small",
+          "name": "USER2-small",
+          "date": "2026-07-30",
+          "metrics": {
+            "ndcg10": 0.2993,
+            "map10": 0.11297,
+            "recall10": 0.14348,
+            "recall100": 0.27278,
+            "mrr10": 0.49231,
+            "precision10": 0.21827
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.25487642684583767
+        },
+        {
+          "model_id": "ai-forever/FRIDA",
+          "name": "FRIDA",
+          "date": "2026-06-29",
+          "metrics": {
+            "ndcg10": 0.29514,
+            "map10": 0.10481,
+            "recall10": 0.13951,
+            "recall100": 0.26881,
+            "mrr10": 0.48497,
+            "precision10": 0.21641
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.2725639173102907
+        },
+        {
+          "model_id": "sergeyzh/BERTA-uncased",
+          "name": "BERTA-uncased",
+          "date": "2026-08-01",
+          "metrics": {
+            "ndcg10": 0.2925,
+            "map10": 0.10445,
+            "recall10": 0.14262,
+            "recall100": 0.27092,
+            "mrr10": 0.48456,
+            "precision10": 0.21393
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.284049622410117
+        },
+        {
+          "model_id": "sergeyzh/BERTA",
+          "name": "BERTA",
+          "date": "2026-07-20",
+          "metrics": {
+            "ndcg10": 0.29196,
+            "map10": 0.10582,
+            "recall10": 0.1431,
+            "recall100": 0.26273,
+            "mrr10": 0.48422,
+            "precision10": 0.21053
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.2864245600594575
+        },
+        {
+          "model_id": "Qwen/Qwen3-Embedding-0.6B",
+          "name": "Qwen3-Embedding-0.6B",
+          "date": "2026-07-09",
+          "metrics": {
+            "ndcg10": 0.28482,
+            "map10": 0.10188,
+            "recall10": 0.13708,
+            "recall100": 0.26913,
+            "mrr10": 0.48556,
+            "precision10": 0.20526
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.31867324820925225
+        },
+        {
+          "model_id": "sergeyzh/rubert-base-retriever",
+          "name": "rubert-base-retriever",
+          "date": "2026-07-21",
+          "metrics": {
+            "ndcg10": 0.27568,
+            "map10": 0.10072,
+            "recall10": 0.13075,
+            "recall100": 0.25868,
+            "mrr10": 0.46058,
+            "precision10": 0.19938
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.36239304467121025
+        },
+        {
+          "model_id": "ai-forever/ru-en-RoSBERTa",
+          "name": "ru-en-RoSBERTa",
+          "date": "2026-06-29",
+          "metrics": {
+            "ndcg10": 0.27154,
+            "map10": 0.10006,
+            "recall10": 0.13099,
+            "recall100": 0.25742,
+            "mrr10": 0.4787,
+            "precision10": 0.19505
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.3831645965786228
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-base",
+          "name": "multilingual-e5-base",
+          "date": "2026-06-29",
+          "metrics": {
+            "ndcg10": 0.26651,
+            "map10": 0.09161,
+            "recall10": 0.12603,
+            "recall100": 0.2416,
+            "mrr10": 0.45437,
+            "precision10": 0.19381
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.4092698756330313
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "name": "multilingual-e5-small",
+          "date": "2026-06-30",
+          "metrics": {
+            "ndcg10": 0.26465,
+            "map10": 0.09218,
+            "recall10": 0.12205,
+            "recall100": 0.25263,
+            "mrr10": 0.44712,
+            "precision10": 0.19505
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.4191744362552776
+        },
+        {
+          "model_id": "sergeyzh/rubert-mini-frida",
+          "name": "rubert-mini-frida",
+          "date": "2026-07-20",
+          "metrics": {
+            "ndcg10": 0.25373,
+            "map10": 0.08611,
+            "recall10": 0.11521,
+            "recall100": 0.24421,
+            "mrr10": 0.45063,
+            "precision10": 0.18669
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.4802526881131881
+        },
+        {
+          "model_id": "sergeyzh/rubert-mini-uncased",
+          "name": "rubert-mini-uncased",
+          "date": "2026-07-18",
+          "metrics": {
+            "ndcg10": 0.25211,
+            "map10": 0.08304,
+            "recall10": 0.11425,
+            "recall100": 0.24365,
+            "mrr10": 0.45125,
+            "precision10": 0.18638
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.489764446293123
+        },
+        {
+          "model_id": "sergeyzh/rubert-mini-retriever",
+          "name": "rubert-mini-retriever",
+          "date": "2026-07-21",
+          "metrics": {
+            "ndcg10": 0.2388,
+            "map10": 0.08025,
+            "recall10": 0.11802,
+            "recall100": 0.23993,
+            "mrr10": 0.42089,
+            "precision10": 0.17554
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.5727994746857588
+        },
+        {
+          "model_id": "sergeyzh/rubert-tiny-retriever",
+          "name": "rubert-tiny-retriever",
+          "date": "2026-07-22",
+          "metrics": {
+            "ndcg10": 0.22953,
+            "map10": 0.08005,
+            "recall10": 0.10799,
+            "recall100": 0.21812,
+            "mrr10": 0.40601,
+            "precision10": 0.16192
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.636319934452835
+        },
+        {
+          "model_id": "sergeyzh/rubert-tiny-lite",
+          "name": "rubert-tiny-lite",
+          "date": "2026-07-22",
+          "metrics": {
+            "ndcg10": 0.22405,
+            "map10": 0.07428,
+            "recall10": 0.10788,
+            "recall100": 0.22823,
+            "mrr10": 0.3868,
+            "precision10": 0.16625
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 0.6763423992633752
+        },
+        {
+          "model_id": "sergeyzh/rubert-tiny-turbo",
+          "name": "rubert-tiny-turbo",
+          "date": "2026-07-22",
+          "metrics": {
+            "ndcg10": 0.18009,
+            "map10": 0.05481,
+            "recall10": 0.07987,
+            "recall100": 0.19272,
+            "mrr10": 0.33714,
+            "precision10": 0.13406
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 1.085537867482699
+        },
+        {
+          "model_id": "sentence-transformers/LaBSE",
+          "name": "LaBSE",
+          "date": "2026-07-01",
+          "metrics": {
+            "ndcg10": 0.15109,
+            "map10": 0.04147,
+            "recall10": 0.06639,
+            "recall100": 0.16823,
+            "mrr10": 0.28188,
+            "precision10": 0.11827
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 1.4858330435830247
+        },
+        {
+          "model_id": "AGmind/strizh-ru-retriever",
+          "name": "strizh-ru-retriever",
+          "date": "2026-07-28",
+          "metrics": {
+            "ndcg10": 0.13344,
+            "map10": 0.03808,
+            "recall10": 0.06187,
+            "recall100": 0.1586,
+            "mrr10": 0.26799,
+            "precision10": 0.09659
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 1.8146321534394425
+        },
+        {
+          "model_id": "cointegrated/rubert-tiny2",
+          "name": "rubert-tiny2",
+          "date": "2026-07-29",
+          "metrics": {
+            "ndcg10": 0.07996,
+            "map10": 0.01799,
+            "recall10": 0.03772,
+            "recall100": 0.1174,
+            "mrr10": 0.15979,
+            "precision10": 0.06316
+          },
+          "verified_label": true,
+          "source_url": "",
+          "rerank_top_k": null,
+          "relative_our_ndcg10_gain": 3.697155009441711
+        }
+      ]
+    },
+    {
+      "name": "Official GitHub older mirror",
+      "url": "https://github.com/kaengreg/rusBEIR/blob/main/leaderboard/data/results.jsonl",
+      "sha256": "6eab1f0a3aa6e0c074d62d4ca972c02771dcb995dc4b610c3a810cabdada8847",
+      "rows": 15,
+      "best": {
+        "model_id": "bm25+Qwen/Qwen3-Reranker-0.6B",
+        "name": "BM25 + Qwen3-Reranker-0.6B",
+        "date": "2026-07-15",
+        "metrics": {
+          "ndcg10": 0.33369,
+          "map10": 0.12775,
+          "recall10": 0.15743,
+          "recall100": 0.18063,
+          "mrr10": 0.5424,
+          "precision10": 0.23282
+        },
+        "verified_label": true,
+        "source_url": "",
+        "rerank_top_k": 20,
+        "relative_our_ndcg10_gain": 0.1255492060144423
+      }
+    }
+  ],
+  "comparability": {
+    "same_registered_corpus_qrels_and_test": true,
+    "current_data_revisions_match_our_pins": true,
+    "lite_reduces_task_inventory_not_a_declared_nfcorpus_sample": true,
+    "official_metric_path": "EvaluateRetrieval / pytrec_eval; our graded linear-gain metric conformance is public",
+    "our_pipeline": "Dev-selected BM25/E5-large/Qwen score fusion, top20 Qwen3-Reranker-4B NF4/BF16, 2048 tokens",
+    "giga_pipeline": "Released 3B dense embedding encoder; model card documents latent-attention pooling and query instructions; exact settings of this leaderboard row are not recorded",
+    "upstream_row_missing": [
+      "model checkpoint revision",
+      "exact command",
+      "qrels/source hashes",
+      "query-level rankings or logs linked in source_url"
+    ],
+    "upstream_verified_label_is_not_our_independent_reproduction": true,
+    "paired_test_against_giga_available": false,
+    "our_original_test_was_already_evaluated_in_phase1": true,
+    "global_sota_established": false,
+    "own_results_have_not_been_retuned": true
+  },
+  "additional_primary_sources": [
+    {
+      "url": "https://huggingface.co/ai-sage/Giga-Embeddings-instruct",
+      "description": "Original GigaChat-3B embedding architecture and official usage"
+    },
+    {
+      "url": "https://aclanthology.org/2025.bsnlp-1.3/",
+      "description": "GigaEmbeddings paper; reports ruMTEB, not the .36834 RusBEIR-lite row"
+    },
+    {
+      "url": "https://arxiv.org/abs/2608.23806",
+      "description": "New Giga-Embeddings family; aggregate MTEB scores are not substituted for rus-NFCorpus"
+    },
+    {
+      "url": "https://huggingface.co/sshalimov04/ru-reranker-edge-150m",
+      "reported_rus_nfcorpus_ndcg10": 0.346,
+      "description": "Additional recent Russian reranker, BM25 top100; separate protocol, lower point estimate"
+    }
+  ]
+}
