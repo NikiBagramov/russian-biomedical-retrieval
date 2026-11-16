@@ -1,0 +1,10 @@
+{
+  "queries": 323,
+  "depth": 20,
+  "needed_pairs": 6460,
+  "reused_in_actual_heads": 2797,
+  "new_in_actual_heads": 3663,
+  "retained_phase2_cache_pairs": 6460,
+  "last_resume_new_pairs": 2861,
+  "scope": "Exact pair counts; last resume count is not total new phase3 work"
+}

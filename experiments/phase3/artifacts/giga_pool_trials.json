@@ -1,0 +1,623 @@
+{
+  "grid": {
+    "prompts": [
+      "generic",
+      "biomedical"
+    ],
+    "bm25_weights": [
+      0.0,
+      0.25,
+      0.5
+    ],
+    "e5_weights": [
+      0.0,
+      0.25,
+      0.5
+    ],
+    "qwen_weights": [
+      0.0,
+      0.25,
+      0.5
+    ],
+    "giga_weight": 1.0,
+    "normalization": "per-query z-score over all3633docs",
+    "policy": "Full324 official dev; screen rerank top3 distinct pools"
+  },
+  "trials": [
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3634804723048025,
+      "ranking_sha256": "affc75a6d9b1a73bedfc90eefae0f07c05eeae46acfe7e9df046bcaa5db6d434"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.3606294726948063,
+      "ranking_sha256": "b65cca7883837f2da74ae56099afbc11e31b97ac8b5f73ee6263b05d51a3cbbc"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.35342425559103613,
+      "ranking_sha256": "96f1c4fdc849206bdc90182d911b2bd23ed0485ba17d254cb27942fe4a7a7277"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.25,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.36031170443182825,
+      "ranking_sha256": "55cce16b1539935924831499695655803925c12a9ee54ffa7d9ed6a334cb12fc"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.35886422160046766,
+      "ranking_sha256": "6daf03eca1a55d1721cbed55cc165f8c491b009fffad3733711fcdb18ead39e6"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.35516588191049403,
+      "ranking_sha256": "699a441827672f1e3690b56da6cafc6ab468f2e1452400e713fc8ebcd6c3d595"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3591683017860421,
+      "ranking_sha256": "d14258741ae0fb45ea5404ca8d98b09a1f897eb49b6b357c9783ce5c13912df4"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.5,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.35515863199302516,
+      "ranking_sha256": "ca9891097e8bbeacaeda23b73ee2adc4203fd1f2bfdf4ee7d82d150110bb9fd7"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.0,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.34960626340250023,
+      "ranking_sha256": "13479982c2ec7a3e052927f0bdadc284d1008f8700eea406d1870ece68f3eb34"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.36066560394547853,
+      "ranking_sha256": "a261766b5772a26d71d20584708f6d7c66a48ce0ea3ceb32bc4e2df7f2938108"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.3598499421884744,
+      "ranking_sha256": "692214da828863cfc076d658fd6321a77ceacd2a2a84b974d5cfe8358247b26d"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.35682075929636203,
+      "ranking_sha256": "9f63cbd131b0732398a67860dd42a80612c41f92ee5d126d462c92debff15485"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.25,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.35769750129879624,
+      "ranking_sha256": "ba6764b2764f3c5d150e0a39d53bc872bcd56f4737bdc54a6afe0e867221dca5"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.35752488880215627,
+      "ranking_sha256": "35f9e8debb9c430c61b1d48a0cdf043b3349b6d210bc289fe067cfe36a3e9402"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3580692117986761,
+      "ranking_sha256": "748f58f2ff6ea45f08f63e722feba9b2f14075b68009507036b0167d8a235fa5"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.5,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.357837663822785,
+      "ranking_sha256": "935f883390dbd2286aeef9f2e8c0701cb4a416e2a942f0fec7c86136c9550ef9"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.5,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.356427357470789,
+      "ranking_sha256": "be3dcf00c475bb387bdf05b0f5a1d16656af0f1cd1d4ffffa733c262d3b76b6a"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.25,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3558944947421041,
+      "ranking_sha256": "e565f7f33725db0c200405b31ed4b4c2892f82e676dab8a2bdacefdb62fca01e"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3493990334291051,
+      "ranking_sha256": "8991f8a4c378744db51c9055c62b7710b3fa525bc3df6f6a2f403103c365f974"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.35169226994435787,
+      "ranking_sha256": "23558001ea84d1dd46963b0e8c6f1f9ff966b481b80dd837b5c38caff4809a3e"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.34821267984941406,
+      "ranking_sha256": "53766a626070927f33f90ede5b4b3a75c2e28480d784524a97ff4fb62e875e8b"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.25,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3497011434174767,
+      "ranking_sha256": "153a64dd1cdb717a06a3b8088d0019cca567d47de1d5dead428b6c79be444e6f"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.34977839439404973,
+      "ranking_sha256": "dfc9d66e352ff596b6f2ac1106117c5e8ed4f139b05aafbc7b7c38458acc697d"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3510711697553786,
+      "ranking_sha256": "278ecb81eebd6467b2d6a4b4bed9ee5e37a0b291da9c433c1dbe87e97b6fc972"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.5,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3502309400403848,
+      "ranking_sha256": "b3601dbcf619b7e63595d489d59cbc80d0cc551fe4903d732d5941ec6a269046"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.5,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.3496612464510021,
+      "ranking_sha256": "5842bc21eb5bc8d1527d8a0625f6c3f62a8027842edc1e26444cfe8374c30473"
+    },
+    {
+      "prompt": "generic",
+      "weights": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.34913013647412283,
+      "ranking_sha256": "ba8aedfc46824341ad0fc041abdcd9129fa9fd3e0295dbdd6b48995b7e77bf3b"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3668538340257482,
+      "ranking_sha256": "71f9699e3788c561777a52697bf7536f4adbaf6ac189f41cbba1f80c7d9f305b"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.35933828716267396,
+      "ranking_sha256": "9bc10590dbd48a3e876d14687547253ed999a28dba75a9c0802c5c2d21d6cc0b"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3554083451335869,
+      "ranking_sha256": "0fdd3bcdf97aaf746e69e86e60961dc8fc9ba3514c25272ef11f8d006d76352d"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.25,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3603480126240059,
+      "ranking_sha256": "b3efa391105eb97a51fe0212075872b3732d72b98b59278e7ebee7236a79385c"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.36127610590281334,
+      "ranking_sha256": "90a8c04107da223f6859f74a1d4a3e168fdc647cafeb5c328c5bfb3961c3c204"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3570971256804244,
+      "ranking_sha256": "111f90f9ecef6b2564039326ce384da64c6a6a1b2a40b9847ac9f49b46aca97a"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3582462532264548,
+      "ranking_sha256": "8121cdf47d53597339373328991ac15c1c6b7ebad8d4015a6198e8397eae4963"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.5,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.35784822964266916,
+      "ranking_sha256": "3c0aa37980e6b05d1e531ee647843aa4cd40aecda4fe9def4674ccca72cb0cee"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.0,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.35122000654381313,
+      "ranking_sha256": "7563da1d9b92113285b72c36189eba2fb0035c897b566fd03b1690a073861d36"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3619572794644838,
+      "ranking_sha256": "d534d1b2785cb0dcdf218d3618edb508f9e6f279017ccb8b4d3d9f65c699e8de"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.3620975345055185,
+      "ranking_sha256": "e3f7d0207422b77d564906ce86936d9f159ac6fe2eb9700e1ef372cd05fc274c"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3605439730253576,
+      "ranking_sha256": "b2014fca83ee5a8b05faaf57a25a02e653add5bdd8af957290d3380dc93c791d"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.25,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3607139046323355,
+      "ranking_sha256": "1d23046d685302bda1920f8aeb6a2efd5cca737185789b4e3a4590eed3ce61dc"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.3626841392837277,
+      "ranking_sha256": "ae6c54a17d10d927d314f72d97a25c88e1563df4c37156e74515707d076861f8"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3604521492675831,
+      "ranking_sha256": "70136b13df35d6d652326dec65df9538f4cfdab8814bb369f5b9f5471fb9e5b8"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.5,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3598188170810422,
+      "ranking_sha256": "3bf51b30d9ce8315730c5294efe4d06da129ea5eed0c53828d51e0a05474cded"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.5,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.35992914090067774,
+      "ranking_sha256": "84e87c3aacb5454353141ab6f5a4ab2c2fd89321c794338601982500768f53fd"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.25,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.35744944086746083,
+      "ranking_sha256": "6b79b3db31f7b585fd379c2c5baaa2b2ec9ba8c29c05269f4f9197c1b11c6255"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.34967577232947405,
+      "ranking_sha256": "81ce6b079755ae9ee44773976e50d0347113592a40cad5cd4dd8456f7a8d88d9"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.3508835641574874,
+      "ranking_sha256": "efb2a33aa5517c48957fdfd2fb0b694f0a2a11e89fad545b966f212607321613"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3516333277764274,
+      "ranking_sha256": "bc0258e473aab0b883c223c88a4466ac50811a09d452047ab6c19182f4b8d4a7"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.25,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3510888240691534,
+      "ranking_sha256": "7ffdbba67fb99c0c7ec7cb9f830fc1b56896284794b66c4e9f573d3b41abef3e"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.25,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.3533016473299692,
+      "ranking_sha256": "7dfa4dd88b81b6cd9f21f5144ff7b8e65708893d69a8769b9bd3c830669377ef"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.25,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3519616796145811,
+      "ranking_sha256": "0c369b671a60933df587f19645da0079d89b2d2b63cfdb0ec88fb80dc7521698"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.5,
+        0.0,
+        1.0
+      ],
+      "ndcg10": 0.3496103858601354,
+      "ranking_sha256": "45ceff1092c21ec2033b0b682f958d351b2b5688fa17c1c8a86caa813be333ad"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.5,
+        0.25,
+        1.0
+      ],
+      "ndcg10": 0.35135889239040885,
+      "ranking_sha256": "b2e8e54b1601c26f74f6d7e1b0eaf91e96812170583704369f8b19ebc8d0ba03"
+    },
+    {
+      "prompt": "biomedical",
+      "weights": [
+        0.5,
+        0.5,
+        0.5,
+        1.0
+      ],
+      "ndcg10": 0.3498094711759082,
+      "ranking_sha256": "b3ddafc23c0a8b48ed99e79bedba1714db0b956f0f282b4877282086e0f9bf44"
+    }
+  ],
+  "code_sha256": "c155a54ba24a4f27bcb749c7edf25b5b6f8161b344414220428b31a541d873b2"
+}

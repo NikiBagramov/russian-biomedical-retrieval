@@ -1,0 +1,16 @@
+{
+  "passed": false,
+  "pairs": 40,
+  "max_abs_difference": 0.031209349632263184,
+  "ranks_equal": false,
+  "batches": {
+    "8": 1,
+    "6": 2,
+    "5": 2,
+    "4": 2,
+    "2": 1
+  },
+  "seconds": 116.32834129999992,
+  "code_sha256": "38c5be8ce3229c9009fb41b075cdd121abe3611f03b20372c19e49e7cbbb8fa7",
+  "scope": "Only this40-pair resource parity probe; not proof of cross-hardware bit equality"
+}

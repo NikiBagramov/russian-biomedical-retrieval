@@ -1,0 +1,209 @@
+{
+  "created": "2026-11-16T13:28:43.893066+00:00",
+  "selection": {
+    "pool": "giga_pool1_dev",
+    "depth": 20,
+    "tie": "doc_id",
+    "mode": "zlogit",
+    "weight": 1.0
+  },
+  "first_stage": {
+    "kind": "giga_fusion",
+    "mode": "zscore",
+    "weights": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "prompt": "biomedical",
+    "length": 1024
+  },
+  "dev_metrics": {
+    "P_10": 0.2925925925925926,
+    "recall_10": 0.17846216470719256,
+    "recall_100": 0.3613266129076434,
+    "ndcg_cut_10": 0.379478281571168,
+    "map_cut_10": 0.1334575369618069,
+    "mrr_10": 0.603811483441113
+  },
+  "model_provenance": {
+    "qwen4": {
+      "repo": "Qwen/Qwen3-Reranker-4B",
+      "revision": "22e683669bc0f0bd69640a1354a6d0aebcfeede5",
+      "weights_sha256": {
+        "model-00001-of-00002.safetensors": "cf2e87cbf71fa628961532232e04dd6c19702a0a057f5e2aff95ea1aca4fd488",
+        "model-00002-of-00002.safetensors": "78946d22b7f6456ea7a5358dbdf3982de36c5bac1f166a5fd58e18e31db8048a"
+      },
+      "seconds": 21.694767599999977,
+      "download": "bounded32MiB HTTP ranges from official Hugging Face; resumed verified-size prefix",
+      "inference_plan": "NF4 double quantization with BF16 computation"
+    },
+    "baseline": {
+      "e5_small": {
+        "repo": "intfloat/multilingual-e5-small",
+        "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+        "license": "mit",
+        "parameters": 117654272,
+        "weights": {
+          "model.safetensors": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477"
+        }
+      },
+      "e5_large": {
+        "repo": "intfloat/multilingual-e5-large",
+        "revision": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+        "license": "mit",
+        "parameters": 559890946,
+        "weights": {
+          "model.safetensors": "020afdebf2762b29fcaf286629a96c3b3b65af241f6a08226b1cfee60a21def6"
+        }
+      },
+      "bge_reranker": {
+        "repo": "BAAI/bge-reranker-v2-m3",
+        "revision": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+        "license": "apache-2.0",
+        "parameters": 567755777,
+        "weights": {
+          "model.safetensors": "d9e3e081faff1eefb84019509b2f5558fd74c1a05a2c7db22f74174fcedb5286"
+        }
+      },
+      "qwen_embedding": {
+        "repo": "Qwen/Qwen3-Embedding-0.6B",
+        "revision": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+        "license": "apache-2.0",
+        "parameters": 595776512,
+        "weights": {
+          "model.safetensors": "0437e45c94563b09e13cb7a64478fc406947a93cb34a7e05870fc8dcd48e23fd"
+        }
+      },
+      "qwen_reranker": {
+        "repo": "Qwen/Qwen3-Reranker-0.6B",
+        "revision": "e61197ed45024b0ed8a2d74b80b4d909f1255473",
+        "license": "apache-2.0",
+        "parameters": 595776512,
+        "weights": {
+          "model.safetensors": "27cd75a405b9c1b46b59abfd88aaa209e6fed2a1972cde9b70e7659537c5e65b"
+        }
+      }
+    },
+    "giga": {
+      "repo": "ai-sage/Giga-Embeddings-instruct",
+      "revision": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
+      "weights_sha256": {
+        "model-00001-of-00003.safetensors": "8f58bbc242e82e65d3564fdf09a378b5fbf545e15bc8291d7a623a8873222f6f",
+        "model-00002-of-00003.safetensors": "fe27f921338efe4e1b41a27f6a1c87ca35d6ae933ebd0458ba09c329b63c9ac9",
+        "model-00003-of-00003.safetensors": "90d75a17597fe2351022a4f8638c2509e624b25b1fc08a3d5c5204ec02d7a14b"
+      },
+      "seconds": 816.7513802999999,
+      "download": "bounded32MiB HTTP ranges from official Hugging Face; resumed verified-size prefix"
+    }
+  },
+  "encoding": {
+    "model": {
+      "repo": "ai-sage/Giga-Embeddings-instruct",
+      "revision": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
+      "weights_sha256": {
+        "model-00001-of-00003.safetensors": "8f58bbc242e82e65d3564fdf09a378b5fbf545e15bc8291d7a623a8873222f6f",
+        "model-00002-of-00003.safetensors": "fe27f921338efe4e1b41a27f6a1c87ca35d6ae933ebd0458ba09c329b63c9ac9",
+        "model-00003-of-00003.safetensors": "90d75a17597fe2351022a4f8638c2509e624b25b1fc08a3d5c5204ec02d7a14b"
+      },
+      "seconds": 816.7513802999999,
+      "download": "bounded32MiB HTTP ranges from official Hugging Face; resumed verified-size prefix"
+    },
+    "review": {
+      "repo": "ai-sage/Giga-Embeddings-instruct",
+      "revision": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
+      "sha256": {
+        "config.json": "3d29a7884a422634115f3597bf111a898c068b53e2152b214f8ec02f2c0edf53",
+        "modeling_gigarembed.py": "d75a06519ffacd39bce2608ceedc56818c072430e1072f26f7aa0b570b3f7ba2",
+        "configuration_gigarembed.py": "0b34786d1c8ee25c2df02d427657a89b2bfad4c4cf8f4858f2007bb223668962",
+        "config_sentence_transformers.json": "9986c6b1724526135bb80978ae31b52aa650ed1f85149c2ccedc2453f05bce79",
+        "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+        "sentence_bert_config.json": "82236913f81b129ce9a63581f29676c37ec71d7ba2ab1839f24dc03827e14aab",
+        "1_Pooling/config.json": "2bc529695125f68de57d1fd347e3d2920b993bc635c5f4f09a45e130c102a989"
+      }
+    },
+    "quantization": "NF4 double quant; BF16 compute; released latent-attention pooling followed by FP32 L2",
+    "max_length": 1024,
+    "batch": 2,
+    "text_encoder_attention": "sdpa",
+    "prompts": {
+      "generic": "Given a web search query, retrieve relevant passages that answer the query",
+      "biomedical": "Given a biomedical search query, retrieve relevant scientific passages that answer the query"
+    },
+    "groups": {
+      "corpus": {
+        "rows": 3633,
+        "truncated": 18,
+        "seconds": 1039.5810018000002
+      },
+      "generic": {
+        "rows": 324,
+        "truncated": 0,
+        "seconds": 42.69400510000014
+      },
+      "biomedical": {
+        "rows": 324,
+        "truncated": 0,
+        "seconds": 40.10287789999984
+      }
+    },
+    "peak_gpu_mb": 2854.95263671875,
+    "seconds": 1124.3080563000003,
+    "code_sha256": "99b0104565252cedcd768fc30639f92c989c636c047057e578571a4a0bd5bf58"
+  },
+  "source_sha256": {
+    "common.py": "95c1ebcac5a62a1d153e8027b0a64ebac2102f9932c4c598d0e943f7b6dfbcb8",
+    "study.py": "a862a68ffe8165a727841524b77aac97d48aafa7aeff58503e6176d13266ce6c",
+    "metrics.py": "478e0c02fb589f64d0527c074db0840ac39b0fa0c2ab5ac8796df4e0d99f0fa4",
+    "sparse.py": "b8ae1574917e9203452f106c69194c67901e0cf0f536aa91b902c94fd591a897",
+    "ranking_math.py": "6956ead1dc7ab14e6ef49525c1a9c127f5c6da0241815de857de07b6b6fe93a2",
+    "qwen_probe.py": "1f78f2f8ba32854830fca4a82d61952ac63d72794ceffc252c0678ef9cc988c5",
+    "qwen_adaptive.py": "38c5be8ce3229c9009fb41b075cdd121abe3611f03b20372c19e49e7cbbb8fa7",
+    "giga_encode.py": "99b0104565252cedcd768fc30639f92c989c636c047057e578571a4a0bd5bf58",
+    "giga_pool.py": "c155a54ba24a4f27bcb749c7edf25b5b6f8161b344414220428b31a541d873b2",
+    "choose_phase3.py": "28abeb0515953cafec3c9439e0c238769886dd9e6d1f39aa9fe82763fb697d70",
+    "frozen_candidates.py": "8d6c2eead6356c577706feb9055705aaeb10a9c8b14384acefdaae2abd5e94b6",
+    "freeze_phase3.py": "e06c6789331ab25c7c1202c8f879cbc7bfafa2fe541d64c7b3551df37eabbd2a",
+    "predict_phase3.py": "9968673cd818f46ce9e1469ed527a13cd10cb5def2b4a0125c9f86a9dc3fc974",
+    "evaluate_phase3.py": "96427207fa99dca54048c5bb347b8ec1caa6f4ebd68ba57fd31d84e7b1c606bd",
+    "pointwise_phase2.py": "30cedc80a85480292c40c3057fb2a74224bcb5e81b698b3142bf60bd39de6568"
+  },
+  "selection_sha256": "cee533e57b889a0ca364ccb4a0adea26c1fa7b9b59e6d9b22af78525b877ce3b",
+  "giga_input_sha256": {
+    "embeddings_giga_nf4_l1024.npz": "39785bb77a51c95b6c7b1cf0f7b343a10dfed2cec306ffd14361ef7029f3abae",
+    "scores_giga_nf4_l1024_biomedical.npy": "9f3cd21c9cdd72c096e5dc1a98e684031faaba0a943a8ca8ebdc8c24e8f7ab86"
+  },
+  "corpus_sha256": "eef9c6a4d52a8dca0d0ea48b221579d1e20d3b90eba3601b712e676dba85fc64",
+  "queries_sha256": "39b52a66281dac435eb49151ec57e101d5c358d0e2c5d47dc3ae71ae77819e1f",
+  "index_sha256": "61dcaef1d9aa8852c249cecd2d5b6fe91da63e95ef25dde997616a398b8aa15e",
+  "base_score_sha256": {
+    "scores_bm25.npy": "693bb9bdf64a5e482b413c4d9c72755836554d236e1ac8105783eca7c28203b8",
+    "scores_e5_large.npy": "fb1933e63ca1415b55cf5b6f4e026ae2b1a19f25783a38172f42e9f1fc0fba89",
+    "scores_qwen_embedding.npy": "1da934182650a92b64b793238e32d62e52eb5785c49c3e1c06ca882f919bcedf"
+  },
+  "dev_candidate_parity": true,
+  "all324_dev_ranking_parity": true,
+  "previous_test_pair_cache": {
+    "optional": true,
+    "sha256": "5e7657305cec74a79130d4c5422bf80449efe480d502d2957de0c89744791683",
+    "purpose": "Inference-only reuse of identical query/document/model/template pairs from phase2; no relevance labels"
+  },
+  "inference_parity": {
+    "passed": true,
+    "development_queries": [
+      "PLAIN-770",
+      "PLAIN-428"
+    ],
+    "pairs": 40,
+    "max_abs_difference": 0.0,
+    "source_sha256": "30cedc80a85480292c40c3057fb2a74224bcb5e81b698b3142bf60bd39de6568",
+    "timing": {
+      "new_pairs": 40,
+      "seconds_this_resume": 26.632297999999537
+    }
+  },
+  "baseline_test_ndcg10": 0.3755845145549592,
+  "target_test_ndcg10": 0.3943637402827072,
+  "test_policy": "Original benchmark test was previously evaluated in phases1/2. Phase3 choice uses dev only; configuration and source locked before phase3 test inference/relevance evaluation."
+}

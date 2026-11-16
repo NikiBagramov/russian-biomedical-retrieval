@@ -1,0 +1,540 @@
+{
+  "grid": {
+    "depths": [
+      20,
+      50,
+      100
+    ],
+    "tie_breakers": [
+      "doc_id",
+      "retrieval"
+    ],
+    "score_modes": [
+      "rank_rrf",
+      "zlogit"
+    ],
+    "retrieval_weights": [
+      0.0,
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "policy": "Complete fixed64 screen only; final promotion requires all324dev"
+  },
+  "trials": [
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.0,
+      "ndcg10": 0.29541607335320924
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.05,
+      "ndcg10": 0.29541607335320924
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.1,
+      "ndcg10": 0.29429204570611966
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.25,
+      "ndcg10": 0.2891385175636263
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.5,
+      "ndcg10": 0.282952736709822
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 1.0,
+      "ndcg10": 0.2799575134998846
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.0,
+      "ndcg10": 0.29541607335320924
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.05,
+      "ndcg10": 0.2965747687585514
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.1,
+      "ndcg10": 0.2934525207152173
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.25,
+      "ndcg10": 0.29256753801928237
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.5,
+      "ndcg10": 0.28996548463090566
+    },
+    {
+      "depth": 20,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 1.0,
+      "ndcg10": 0.28617088615697256
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.0,
+      "ndcg10": 0.2955135673688535
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.05,
+      "ndcg10": 0.2955135673688535
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.1,
+      "ndcg10": 0.2943895397217639
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.25,
+      "ndcg10": 0.28916028221282525
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.5,
+      "ndcg10": 0.28296091482741054
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 1.0,
+      "ndcg10": 0.28180921769682943
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.0,
+      "ndcg10": 0.2955135673688535
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.05,
+      "ndcg10": 0.2965747687585514
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.1,
+      "ndcg10": 0.2934525207152173
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.25,
+      "ndcg10": 0.29256753801928237
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.5,
+      "ndcg10": 0.28996548463090566
+    },
+    {
+      "depth": 20,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 1.0,
+      "ndcg10": 0.28617088615697256
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.0,
+      "ndcg10": 0.30904463465280674
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.05,
+      "ndcg10": 0.30737107123374785
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.1,
+      "ndcg10": 0.30732623319031344
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.25,
+      "ndcg10": 0.2982354666240987
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.5,
+      "ndcg10": 0.29345137840160596
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 1.0,
+      "ndcg10": 0.28178755344971584
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.0,
+      "ndcg10": 0.30904463465280674
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.05,
+      "ndcg10": 0.3094571347038627
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.1,
+      "ndcg10": 0.3112858516091026
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.25,
+      "ndcg10": 0.31038705973426106
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.5,
+      "ndcg10": 0.2998716650428084
+    },
+    {
+      "depth": 50,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 1.0,
+      "ndcg10": 0.2902344343509407
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.0,
+      "ndcg10": 0.30912447997352416
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.05,
+      "ndcg10": 0.3074069767341471
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.1,
+      "ndcg10": 0.3075711856176411
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.25,
+      "ndcg10": 0.3005075898776194
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.5,
+      "ndcg10": 0.29465168761718186
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 1.0,
+      "ndcg10": 0.2849665371985898
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.0,
+      "ndcg10": 0.30912447997352416
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.05,
+      "ndcg10": 0.3094571347038627
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.1,
+      "ndcg10": 0.3112858516091026
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.25,
+      "ndcg10": 0.31038705973426106
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.5,
+      "ndcg10": 0.2998716650428084
+    },
+    {
+      "depth": 50,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 1.0,
+      "ndcg10": 0.2902344343509407
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.0,
+      "ndcg10": 0.31911966952500703
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.05,
+      "ndcg10": 0.3176551730164704
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.1,
+      "ndcg10": 0.31748142852049
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.25,
+      "ndcg10": 0.31039752617470573
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 0.5,
+      "ndcg10": 0.29586686133616774
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "rank_rrf",
+      "weight": 1.0,
+      "ndcg10": 0.2850456935239376
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.0,
+      "ndcg10": 0.31911966952500703
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.05,
+      "ndcg10": 0.321665070723977
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.1,
+      "ndcg10": 0.3223361925275534
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.25,
+      "ndcg10": 0.32135047087350166
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 0.5,
+      "ndcg10": 0.31749274195684485
+    },
+    {
+      "depth": 100,
+      "tie": "doc_id",
+      "mode": "zlogit",
+      "weight": 1.0,
+      "ndcg10": 0.2989683782543533
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.0,
+      "ndcg10": 0.31994393141991473
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.05,
+      "ndcg10": 0.31845041384267614
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.1,
+      "ndcg10": 0.3173952686419581
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.25,
+      "ndcg10": 0.31249616754409343
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 0.5,
+      "ndcg10": 0.29826159294876353
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "rank_rrf",
+      "weight": 1.0,
+      "ndcg10": 0.2878008170831283
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.0,
+      "ndcg10": 0.31994393141991473
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.05,
+      "ndcg10": 0.321665070723977
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.1,
+      "ndcg10": 0.3223361925275534
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.25,
+      "ndcg10": 0.32135047087350166
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 0.5,
+      "ndcg10": 0.31749274195684485
+    },
+    {
+      "depth": 100,
+      "tie": "retrieval",
+      "mode": "zlogit",
+      "weight": 1.0,
+      "ndcg10": 0.2989683782543533
+    }
+  ],
+  "best": {
+    "depth": 100,
+    "tie": "doc_id",
+    "mode": "zlogit",
+    "weight": 0.1,
+    "ndcg10": 0.3223361925275534
+  },
+  "source_sha256": "506adb8f4876c7b55b4929a72f37b162b1fe0932b410e34dab387a261cff97f7"
+}

@@ -1,0 +1,30 @@
+{
+  "pools": [
+    "score_fusion_dev",
+    "giga_pool1_dev",
+    "giga_pool2_dev",
+    "giga_pool3_dev"
+  ],
+  "depths": [
+    20,
+    50,
+    100
+  ],
+  "ties": [
+    "doc_id",
+    "retrieval"
+  ],
+  "modes": [
+    "rank_rrf",
+    "zlogit"
+  ],
+  "weights": [
+    0.0,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "criterion": "maximum full324dev nDCG10; exact ties keep first enumerated config; no test selection"
+}

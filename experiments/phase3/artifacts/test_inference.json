@@ -1,0 +1,18 @@
+{
+  "rows": 323,
+  "config": {
+    "pool": "giga_pool1_dev",
+    "depth": 20,
+    "tie": "doc_id",
+    "mode": "zlogit",
+    "weight": 1.0
+  },
+  "new_pairs": 2861,
+  "seconds_this_resume": 1370.5779315,
+  "cached_pair_count": 10123,
+  "initial_reused_pairs": 6460,
+  "scoring_source_sha256": "30cedc80a85480292c40c3057fb2a74224bcb5e81b698b3142bf60bd39de6568",
+  "run_sha256": "d0eece0f60b6ec4a8502121e969ea0662b7b57b5f04ac74df01104b8f299aabf",
+  "lock_sha256": "a960f698f7fef81ea4f3587e0580c07ad5960b7b1213b57b8e04bd5764c77172",
+  "candidate_sha256": "76637c831fa59a4bd003d91014f49976cc427e952df14990d17ac138be82ea1b"
+}

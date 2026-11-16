@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "development_queries": [
+    "PLAIN-770",
+    "PLAIN-428"
+  ],
+  "pairs": 40,
+  "max_abs_difference": 0.0,
+  "source_sha256": "30cedc80a85480292c40c3057fb2a74224bcb5e81b698b3142bf60bd39de6568",
+  "timing": {
+    "new_pairs": 40,
+    "seconds_this_resume": 26.632297999999537
+  }
+}

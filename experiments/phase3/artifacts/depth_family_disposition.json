@@ -1,0 +1,9 @@
+{
+  "action": "defer_full100",
+  "reason": "Prioritize alternative retriever after weak full324dev top50 gain; full100 screen remains an incomplete full-dev candidate and is excluded until computed",
+  "dev50_ndcg10": 0.352427639906138,
+  "baseline_dev_ndcg10": 0.34949648796407223,
+  "relative_dev_gain": 0.008386785112321604,
+  "test_used_for_decision": false,
+  "time": "2026-11-16T12:33:38.716915+00:00"
+}

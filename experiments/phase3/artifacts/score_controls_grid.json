@@ -1,0 +1,24 @@
+{
+  "depths": [
+    20,
+    50,
+    100
+  ],
+  "tie_breakers": [
+    "doc_id",
+    "retrieval"
+  ],
+  "score_modes": [
+    "rank_rrf",
+    "zlogit"
+  ],
+  "retrieval_weights": [
+    0.0,
+    0.05,
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "policy": "Complete fixed64 screen only; final promotion requires all324dev"
+}

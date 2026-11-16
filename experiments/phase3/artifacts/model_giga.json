@@ -1,0 +1,11 @@
+{
+  "repo": "ai-sage/Giga-Embeddings-instruct",
+  "revision": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
+  "weights_sha256": {
+    "model-00001-of-00003.safetensors": "8f58bbc242e82e65d3564fdf09a378b5fbf545e15bc8291d7a623a8873222f6f",
+    "model-00002-of-00003.safetensors": "fe27f921338efe4e1b41a27f6a1c87ca35d6ae933ebd0458ba09c329b63c9ac9",
+    "model-00003-of-00003.safetensors": "90d75a17597fe2351022a4f8638c2509e624b25b1fc08a3d5c5204ec02d7a14b"
+  },
+  "seconds": 816.7513802999999,
+  "download": "bounded32MiB HTTP ranges from official Hugging Face; resumed verified-size prefix"
+}

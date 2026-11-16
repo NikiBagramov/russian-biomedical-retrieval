@@ -1,0 +1,8 @@
+{
+  "created": "2026-11-16T13:13:18.745525+00:00",
+  "extra_pairs_after_current_full20": 457,
+  "prior_controller_sha256": "d2ad7ebd1cae33aef03b1eccb490a2b09e1ef785be9cc8c667cd6f08401a41b8",
+  "new_controller_sha256": "180aa4c6bfd6c1accaa04ac8c122ed4dc9e0bd19e749bc582e2c3ed42de74a8a",
+  "reason": "Three close64screen results and only457additional unique pairs to cover all3 full20 pools, compared with thousands for50. Expand pool comparison before depth. Preserve live inference.",
+  "policy": "All3 full20 pools, then same7.5%dev heuristic and same within-pool depth-gain condition; no phase3 test evaluated"
+}

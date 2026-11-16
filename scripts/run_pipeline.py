@@ -8,6 +8,11 @@ def call(script,*args):
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--reproduce',action='store_true');ap.add_argument('--run',action='store_true');ap.add_argument('--download',action='store_true');ap.add_argument('--verify',action='store_true');ap.add_argument('--report',action='store_true');a=ap.parse_args()
+    if a.reproduce and (ROOT/'experiments/phase3/artifacts/final_results.json').exists():
+        command=[sys.executable,str(ROOT/'experiments/phase3/scripts/reproduce.py')]
+        if a.download:command.append('--download')
+        if a.report:command.append('--report')
+        subprocess.run(command,check=True,cwd=ROOT);return
     if a.reproduce and (ROOT/'experiments/phase2/artifacts/final_results.json').exists():
         command=[sys.executable,str(ROOT/'experiments/phase2/scripts/reproduce.py')]
         if a.download:command.append('--download')
@@ -48,7 +53,10 @@ def main():
     if a.verify:
         call('verify_results.py')
         if (ROOT/'experiments/phase2/artifacts/final_results.json').exists():call('verify_phase2.py')
+        if (ROOT/'experiments/phase3/artifacts/final_results.json').exists():call('verify_phase3.py')
     if a.report:
-        call('figures.py');call('make_paper.py');call('build_report.py')
+        if (ROOT/'experiments/phase3/artifacts/final_results.json').exists():call('make_paper_phase3.py')
+        else:call('figures.py');call('make_paper.py')
+        call('build_report.py')
     if not any(vars(a).values()):ap.print_help()
 if __name__=='__main__':main()

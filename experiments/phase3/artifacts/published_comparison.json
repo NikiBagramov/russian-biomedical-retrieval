@@ -1,0 +1,87 @@
+{
+  "our_metrics": {
+    "P_10": 0.2953560371517028,
+    "recall_10": 0.19576384903773938,
+    "recall_100": 0.34430550393697573,
+    "ndcg_cut_10": 0.3990239496069592,
+    "map_cut_10": 0.15467008317802555,
+    "mrr_10": 0.5980429013710747
+  },
+  "our_results_sha256": "fa0d5668ca6702f970381721c2910f09131fe12438fa11af1504aaa7b268702d",
+  "strongest_found": {
+    "model_id": "ai-sage/Giga-Embeddings-instruct",
+    "name": "Giga-Embeddings-instruct",
+    "date": "2026-08-11",
+    "metrics": {
+      "ndcg10": 0.36834,
+      "map10": 0.13987,
+      "recall10": 0.18274,
+      "recall100": 0.344,
+      "mrr10": 0.5612,
+      "precision10": 0.27337
+    },
+    "verified_label": true,
+    "source_url": "",
+    "rerank_top_k": null,
+    "relative_our_ndcg10_gain": 0.08330333280925006
+  },
+  "sources": [
+    {
+      "name": "Official RusBEIR Space data",
+      "commit": "2d78ee50b9e6b1d4075f18606dd0965686af3d81",
+      "url": "https://huggingface.co/spaces/kaengreg/rusBEIR/blob/2d78ee50b9e6b1d4075f18606dd0965686af3d81/data/results.jsonl",
+      "sha256": "9bdcd8f79774a5c29dcf04fa6f019bbde3f55c9d575b94776c68d183bfcf277b",
+      "rows": 24
+    },
+    {
+      "name": "Independent RusBEIR-lite",
+      "commit": "ef8a174bbc1c1d344066bc98fd22813196ae0ef6",
+      "url": "https://huggingface.co/spaces/sergeyzh/rusBEIR-lite/blob/ef8a174bbc1c1d344066bc98fd22813196ae0ef6/results.jsonl",
+      "sha256": "d3534207f0bffb6101ce419a8650217b754091a2ced54af67192f9a0c27fc79b",
+      "rows": 46
+    },
+    {
+      "name": "Official GitHub older mirror",
+      "url": "https://github.com/kaengreg/rusBEIR/blob/main/leaderboard/data/results.jsonl",
+      "sha256": "6eab1f0a3aa6e0c074d62d4ca972c02771dcb995dc4b610c3a810cabdada8847",
+      "rows": 15,
+      "best": {
+        "model_id": "bm25+Qwen/Qwen3-Reranker-0.6B",
+        "name": "BM25 + Qwen3-Reranker-0.6B",
+        "date": "2026-07-15",
+        "metrics": {
+          "ndcg10": 0.33369,
+          "map10": 0.12775,
+          "recall10": 0.15743,
+          "recall100": 0.18063,
+          "mrr10": 0.5424,
+          "precision10": 0.23282
+        },
+        "verified_label": true,
+        "source_url": "",
+        "rerank_top_k": 20,
+        "relative_our_ndcg10_gain": 0.1255492060144423
+      }
+    }
+  ],
+  "relative_gain_vs_strongest": 0.08330333280925006,
+  "comparison_limits": {
+    "same_registered_corpus_qrels_and_test": true,
+    "current_data_revisions_match_our_pins": true,
+    "lite_reduces_task_inventory_not_a_declared_nfcorpus_sample": true,
+    "official_metric_path": "EvaluateRetrieval / pytrec_eval; our graded linear-gain metric conformance is public",
+    "giga_pipeline": "Released 3B dense embedding encoder; model card documents latent-attention pooling and query instructions; exact settings of this leaderboard row are not recorded",
+    "upstream_row_missing": [
+      "model checkpoint revision",
+      "exact command",
+      "qrels/source hashes",
+      "query-level rankings or logs linked in source_url"
+    ],
+    "upstream_verified_label_is_not_our_independent_reproduction": true,
+    "paired_test_against_giga_available": false,
+    "our_original_test_was_already_evaluated_in_phase1": true,
+    "global_sota_established": false,
+    "our_pipeline": "Biomedical Giga NF4/1024, top20 Qwen4 NF4/2048, zlogit plus rank prior1; selected only on dev"
+  },
+  "scope": "Same pinned external snapshots audited16Nov2026; external predictions not available, no paired test against Giga; our phase3 configuration frozen before this test"
+}

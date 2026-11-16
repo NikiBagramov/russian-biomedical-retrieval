@@ -1,0 +1,17 @@
+{
+  "files": {
+    "dev_candidate_evidence.jsonl": "42e07868c43c37854a57a24df81d03cec908984da56a0cc42a08a0206c056e65",
+    "dev_relevance_summary.json": "0714f917f5a24c0670d634456775e726ff147f944786c5cbf61c82dcb4ace983",
+    "final_predictions.jsonl": "dfea88519a1ad2ca72ae554ed08e7385edd1c35119ccf5e33fd6ea17ec474e45",
+    "test_relevance_summary.json": "f927cde738d83b086a9597c3fca46c98c7d08f72ca23b4f497a7d73ca5242e9d",
+    "test_pair_evidence.jsonl": "cfffba7b19eb1962bb518a7f353fcc1bbf206de4af8895c9a6de05bb36dd9ea9",
+    "test_pair_audit.json": "a4d8ce295a45e153defa8f312098fa20fab5de39c0487278c665664f628c2fd8",
+    "selection_phase3.json": "cee533e57b889a0ca364ccb4a0adea26c1fa7b9b59e6d9b22af78525b877ce3b",
+    "final_results.json": "fa0d5668ca6702f970381721c2910f09131fe12438fa11af1504aaa7b268702d",
+    "evaluation_lock.json": "a960f698f7fef81ea4f3587e0580c07ad5960b7b1213b57b8e04bd5764c77172",
+    "protocol.json": "5b75be9fad7a16359c160cbba5dc18b584d4c6fd40805c880699315a42145427",
+    "score_controls_trials.json": "d854a4cb8f955ab31ec92717bb687ce8578d995c169b3ae2b98da2dd7a0cf093",
+    "giga_screen_controls_trials.json": "73c955abd6fa0e9bf8d297f096d58cdb337b6e66c35a201d3844ce716f3c53d8"
+  },
+  "scope": "Numerical ranks, probabilities and judgments; no source documents, queries or weights"
+}

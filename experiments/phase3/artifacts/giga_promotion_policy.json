@@ -1,0 +1,5 @@
+{
+  "policy": "Screen three full-dev-selected pools, promote best top20 screen if within5% of best deeper screen; then full50, full100 if full50 improves available full-depth control by>.002",
+  "screen_margin": 0.95,
+  "full_margin": 0.002
+}

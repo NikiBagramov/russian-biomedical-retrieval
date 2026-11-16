@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "parameters": 3449624576,
+  "meta_parameters": true,
+  "text_sdpa_supported": true,
+  "gpu_allocated": 0
+}

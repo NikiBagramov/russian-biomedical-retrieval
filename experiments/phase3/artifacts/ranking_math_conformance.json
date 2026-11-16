@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "screen_trials": 72,
+  "maximum_ndcg_difference": 0.0,
+  "baseline_dev_rankings": 324,
+  "source_sha256": "6956ead1dc7ab14e6ef49525c1a9c127f5c6da0241815de857de07b6b6fe93a2",
+  "conformance_source_sha256": "dabbef56e93823ccd5de857fd7b204006ed6f35c94eca7881e83510693838a33"
+}

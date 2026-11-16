@@ -1,0 +1,17 @@
+{
+  "created": "2026-11-16T13:04:59.365931+00:00",
+  "prior_controller_sha256": "dbacc75825fc4f612c126e16d346f36010c57ac483783fe0403feee4b2834ff4",
+  "replacement_controller_sha256": "d2ad7ebd1cae33aef03b1eccb490a2b09e1ef785be9cc8c667cd6f08401a41b8",
+  "screen_controls_sha256": "8960ac0140570e59f50a4ce380bcf3efeb33ec34b233e0e0ba1c0703b9cecf29",
+  "reason": "Full20 requires~2159 new pairs versus~8521 for50. Evaluate complete20 before expanding; compare depth gain within the same Giga pool, not against the weaker old pool. No completed full Giga reranker dev or phase3 test evaluated.",
+  "existing_stage": [
+    "--pool",
+    "giga_pool2_dev",
+    "--depth",
+    "50",
+    "--full",
+    "--legacy"
+  ],
+  "child_action": "interrupt incomplete full50, retain completed pair checkpoints",
+  "policy": "Unchanged3screens; apply existing ranking-control family at depth20 to fixed64, then full20 if best within5% of old deeper64 reference, then50 only below heuristic7.5% dev margin;100 only if within-pool best50-best20>.002 and margin not reached. No phase3 test labels used."
+}

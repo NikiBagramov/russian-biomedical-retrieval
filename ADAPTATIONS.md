@@ -1,14 +1,26 @@
-# Адаптации и собственный вклад
+# Модели и адаптации
 
-Новая итоговая система сочетает три lexical/dense scores через dev-selected z-score fusion и применяет Qwen3-Reranker-4B NF4/BF16 к top20. Собственный вклад - состав/нормализация кандидатов, доменная интеграция, экспериментальная проверка архитектур и неопределённости; новые foundation weights не заявляются.
+## 1. Итоговый метод
+
+Giga-Embeddings-instruct с biomedical query instruction даёт top-100 по cosine similarity. Qwen3-Reranker-4B переоценивает top-20. Внутри этой головы к z-score(logit(Qwen score)) добавляется z-score(-исходный ранг Giga) с весом 1. Хвост 21-100 сохраняется. Веса моделей не дообучаются; выбор сделан по dev.
+
+## 2. Что сохранено и что изменено
 
 | Компонент | Сохранено | Адаптация |
 |---|---|---|
-| BM25 | Lucene,k1=1.2,b=.75,авторские processed поля | CPU BM25s вместо Elasticsearch статьи |
-| E5/Qwen embeddings | Официальные prefixes/pooling/normalization/weights | Доменная инструкция Qwen,cap512 |
-| BGE baseline | Выпущенный checkpoint,pair scoring | Top20,512tokens по pinned исходному wrapper |
-| Qwen4B | Официальный yes/no template,pinned weights | NF4 double quant,BF16,batch2,2048tokens,top20 |
-| Jina v3.5 screen | LBNL weights/projector,official query-embedding fusion | Ограниченные4096token/16docblocks,512tokens/document |
-| ThinkQE/QA-Expand-inspired screen | Идея query expansion и corpus feedback | Один greedy round от открытого1.7B; ru/en JSON; это не точная paper reproduction |
+| Giga | Pinned weights, released latent attention, 2048dims, L2 | Biomedical prompt, NF4double quant, BF16, 1024 tokens, batch2, SDPA text encoder |
+| Qwen4 | Pinned weights, official yes/no template, protected prefix/suffix | NF4/BF16, 2048 tokens, batch2, top20; исходный ранг добавляется отдельным правилом |
+| BM25 | Lucene, k1=1.2, b=.75, авторские processed fields | CPU BM25s вместо Elasticsearch статьи |
+| E5 | Released prefixes, masked mean, L2 | Локальный 512-token inference |
+| Qwen0.6 embedding/reranking | Official pooling/template | Доменная инструкция и budgets512/2048 |
+| BGE baseline | Released pair scorer | Top20, 512 tokens по pinned wrapper; статья упоминает 2048 |
+| Jina v3.5 | Released LBNL encoder/projector/query fusion | Только 64 dev, блоки 16 docs/4096 tokens вместо полного listwise context |
+| Query expansion | Идея corpus-feedback expansion | Один greedy ru/en round от Qwen1.7B; это отдельная адаптация идеи ThinkQE/QA-Expand |
 
-Сравнение0.3756 с published.3483 не приравнивается к доказанному мировому SotA или одинаковому zero-shot compute budget. Все отрицательные screens сохранены, fulltest использован только после нового lock. Ранее опубликованный test фазы1 уже известен.
+## 3. Ресурсы и отвергнутые варианты
+
+На 6 GB GPU используется один inference-worker за раз. Giga полный corpus/dev encoding занял около 19 минут, peak allocated около 2855 MiB (2.79 GiB);18 из 3633 документов усечены. Увеличенный length-grouped batch Qwen изменил scores и ранги на 40 dev-парах, поэтому итог использует исходный batch2. Неудачные варианты и их реальные dev результаты сохранены.
+
+## 4. Что означает сравнение
+
+Наша система включает dev-selected инструкцию/постобработку и другую точность inference. Строка внешнего Giga не содержит точного revision/команды/query-level predictions. Чужой агрегат не выдаётся за собственный повтор; парный CI относится к нашим локальным predictions. Подробные результаты: experiments/phase3/ и PDF.

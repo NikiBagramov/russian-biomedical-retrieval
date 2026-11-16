@@ -1,0 +1,24 @@
+{
+  "prompts": [
+    "generic",
+    "biomedical"
+  ],
+  "bm25_weights": [
+    0.0,
+    0.25,
+    0.5
+  ],
+  "e5_weights": [
+    0.0,
+    0.25,
+    0.5
+  ],
+  "qwen_weights": [
+    0.0,
+    0.25,
+    0.5
+  ],
+  "giga_weight": 1.0,
+  "normalization": "per-query z-score over all3633docs",
+  "policy": "Full324 official dev; screen rerank top3 distinct pools"
+}

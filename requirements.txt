@@ -18,3 +18,5 @@ bm25s==0.2.14
 pytrec-eval-terrier==0.5.11
 
 bitsandbytes==0.48.2
+einops==0.8.0
+psutil==6.1.0

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "completed_full_dev_trials": 124,
+  "queries": 324,
+  "completed_screen_controls": 147,
+  "source_sha256": "c47693f50d0e4b8752b9be34e50b8bcb00309e9c1ebf346c3c0213260339da71",
+  "scope": "Independent rankings and six metrics versus completed interim dev trials and147screen controls; no phase3 test labels"
+}

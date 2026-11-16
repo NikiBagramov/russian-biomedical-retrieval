@@ -1,0 +1,14 @@
+{
+  "created": "2026-11-16T13:25:53.219794+00:00",
+  "pool": "giga_pool1_dev",
+  "full20_available": [
+    "giga_pool1_dev",
+    "giga_pool2_dev",
+    "giga_pool3_dev"
+  ],
+  "best_dev_after_all20": 0.379478281571168,
+  "dev_heuristic_target": 0.37570872456137766,
+  "policy": "All3 complete324dev20 pools before deeper scoring.50 if best dev remains below1.075xold dev;100 only if within-pool best50-best20>.002 and overall margin still below1.075. No test labels used; heuristic is not a test guarantee.",
+  "full50": "deferred: dev heuristic margin reached",
+  "full100": "deferred: dev heuristic margin reached"
+}

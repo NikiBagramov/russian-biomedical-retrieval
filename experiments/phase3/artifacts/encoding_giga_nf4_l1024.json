@@ -1,0 +1,54 @@
+{
+  "model": {
+    "repo": "ai-sage/Giga-Embeddings-instruct",
+    "revision": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
+    "weights_sha256": {
+      "model-00001-of-00003.safetensors": "8f58bbc242e82e65d3564fdf09a378b5fbf545e15bc8291d7a623a8873222f6f",
+      "model-00002-of-00003.safetensors": "fe27f921338efe4e1b41a27f6a1c87ca35d6ae933ebd0458ba09c329b63c9ac9",
+      "model-00003-of-00003.safetensors": "90d75a17597fe2351022a4f8638c2509e624b25b1fc08a3d5c5204ec02d7a14b"
+    },
+    "seconds": 816.7513802999999,
+    "download": "bounded32MiB HTTP ranges from official Hugging Face; resumed verified-size prefix"
+  },
+  "review": {
+    "repo": "ai-sage/Giga-Embeddings-instruct",
+    "revision": "2cf0fdc97194aaedf10ac0e6bf798834acd31042",
+    "sha256": {
+      "config.json": "3d29a7884a422634115f3597bf111a898c068b53e2152b214f8ec02f2c0edf53",
+      "modeling_gigarembed.py": "d75a06519ffacd39bce2608ceedc56818c072430e1072f26f7aa0b570b3f7ba2",
+      "configuration_gigarembed.py": "0b34786d1c8ee25c2df02d427657a89b2bfad4c4cf8f4858f2007bb223668962",
+      "config_sentence_transformers.json": "9986c6b1724526135bb80978ae31b52aa650ed1f85149c2ccedc2453f05bce79",
+      "modules.json": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf",
+      "sentence_bert_config.json": "82236913f81b129ce9a63581f29676c37ec71d7ba2ab1839f24dc03827e14aab",
+      "1_Pooling/config.json": "2bc529695125f68de57d1fd347e3d2920b993bc635c5f4f09a45e130c102a989"
+    }
+  },
+  "quantization": "NF4 double quant; BF16 compute; released latent-attention pooling followed by FP32 L2",
+  "max_length": 1024,
+  "batch": 2,
+  "text_encoder_attention": "sdpa",
+  "prompts": {
+    "generic": "Given a web search query, retrieve relevant passages that answer the query",
+    "biomedical": "Given a biomedical search query, retrieve relevant scientific passages that answer the query"
+  },
+  "groups": {
+    "corpus": {
+      "rows": 3633,
+      "truncated": 18,
+      "seconds": 1039.5810018000002
+    },
+    "generic": {
+      "rows": 324,
+      "truncated": 0,
+      "seconds": 42.69400510000014
+    },
+    "biomedical": {
+      "rows": 324,
+      "truncated": 0,
+      "seconds": 40.10287789999984
+    }
+  },
+  "peak_gpu_mb": 2854.95263671875,
+  "seconds": 1124.3080563000003,
+  "code_sha256": "99b0104565252cedcd768fc30639f92c989c636c047057e578571a4a0bd5bf58"
+}
