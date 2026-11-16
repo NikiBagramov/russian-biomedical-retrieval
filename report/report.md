@@ -108,7 +108,7 @@ NF4 computation проверен на RTX 3060 Laptop 6 GB; BF16 требует 
 
 7. Conclusion
 
-Замена прежнего small-reranker ансамбля на новый трёхкомпонентный retrieval и Qwen 4B NF4 дала 0.3756 nDCG@10. Прирост к проверенному опубликованному BM25+BGE составил 7.83%; положительная локальная разность к прежней системе подтверждена парным bootstrap. Отрицательные screening-результаты, закреплённые настройки и публичные предсказания сохраняют проверяемость вывода.
+Новый retrieval с Qwen 4B NF4 дал 0.3756 nDCG@10 (+7.83% к опубликованному ориентиру). Прирост к прежней системе подтверждён парным bootstrap. Опубликованы настройки, все пробы и предсказания.
 
 References
 
@@ -126,4 +126,4 @@ References
 
 [7] QA-Expand: Multi-Question Answer Generation for Enhanced Query Expansion in Information Retrieval. 2025. https://arxiv.org/abs/2502.08557
 
-Воспроизводимость: PROTOCOL.md; scripts/run_pipeline.py --verify. Полный новый запуск: --reproduce --download. Фаза2: experiments/phase2/.
+Код, проверка и полный запуск: PROTOCOL.md и experiments/phase2/.
